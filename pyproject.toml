@@ -7,7 +7,10 @@ requires-python = ">=3.13"
 dependencies = [
     "boto3[crt]>=1.40.1",
     "dspy-ai>=2.6.27",
+    "mlflow>=3.2.0",
     "pydantic>=2.11.7",
+    "textgrad>=0.1.8",
+    "tqdm>=4.67.1",
 ]
 
 [dependency-groups]

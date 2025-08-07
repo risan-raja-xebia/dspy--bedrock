@@ -1,0 +1,3 @@
+[submodule "dspy-advanced-prompting"]
+	path = dspy-advanced-prompting
+	url = https://github.com/haasonsaas/dspy-advanced-prompting.git
