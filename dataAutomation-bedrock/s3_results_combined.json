@@ -1,0 +1,4318 @@
+{
+  "summary": {
+    "total_files_found": 99,
+    "successful_downloads": 66,
+    "successful_parses": 66,
+    "processing_timestamp": "2025-08-27T17:35:48.954167"
+  },
+  "results": [
+    {
+      "extraction_timestamp": "2025-08-27T17:35:41.985998",
+      "source_file": "test1335e4f8ed",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "AUSTRALIA",
+        "documentType": "PASSPORT",
+        "surname": "",
+        "documentNumber": "PE0914751",
+        "issuingOffice": "CANBERRA",
+        "validFrom": "2014-03-01",
+        "forenames": "JANE",
+        "validTo": "2024-03-01"
+      },
+      "confidence_scores": {
+        "country": 0.94140625,
+        "documentType": 0.86328125,
+        "surname": 0.93359375,
+        "documentNumber": 0.9609375,
+        "issuingOffice": 0.859375,
+        "validFrom": 0.8125,
+        "forenames": 0.94921875,
+        "validTo": 0.83203125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.017962429570134834,
+            "left": 0.39689019980806056,
+            "width": 0.13544376921092688,
+            "height": 0.042118666869716964
+          },
+          {
+            "top": 0.7251088755090623,
+            "left": 0.32016958216962005,
+            "width": 0.1881705255147081,
+            "height": 0.05942442915216806
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.05459624496453487,
+            "left": 0.07462051826935441,
+            "width": 0.13856679489242452,
+            "height": 0.042789132575472275
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.1074163385594132,
+            "left": 0.7013507309374977,
+            "width": 0.1592504120316901,
+            "height": 0.042528099090454505
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.4680856601108966,
+            "left": 0.6512561858577148,
+            "width": 0.15113940442481733,
+            "height": 0.047766492157078844
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.5640268959507599,
+            "left": 0.31352504421054195,
+            "width": 0.04016793405865576,
+            "height": 0.04916590658404163
+          },
+          {
+            "top": 0.5624678432785554,
+            "left": 0.37621107717861496,
+            "width": 0.06080919178137251,
+            "height": 0.041784878653019386
+          },
+          {
+            "top": 0.5550584825847866,
+            "left": 0.4575003726837273,
+            "width": 0.07974671762367563,
+            "height": 0.050085752975230435
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.2444933977082303,
+            "left": 0.3027832777748148,
+            "width": 0.07912831069715243,
+            "height": 0.04411760186942032
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6477108008162582,
+            "left": 0.31759512425749503,
+            "width": 0.03921630024864464,
+            "height": 0.05036041595420626
+          },
+          {
+            "top": 0.6458722215218644,
+            "left": 0.37967789436197014,
+            "width": 0.06171922079346237,
+            "height": 0.044535099101178255
+          },
+          {
+            "top": 0.6365477363866989,
+            "left": 0.4618650639818578,
+            "width": 0.08043075188045201,
+            "height": 0.05038719332905506
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test1335e4f8ed//d114bef3-4a2e-4b97-9fa6-93adb3b1b278/0/custom_output/0/result.json",
+        "s3_size": 5794,
+        "s3_last_modified": "2025-08-27T11:36:42+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:42.072786",
+      "source_file": "test1335e4f8ed",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test1335e4f8ed//d114bef3-4a2e-4b97-9fa6-93adb3b1b278/job_metadata.json",
+        "s3_size": 469,
+        "s3_last_modified": "2025-08-27T11:36:42+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:42.202276",
+      "source_file": "test1cf7235c73",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "GRC",
+        "documentType": "P",
+        "documentNumber": "AE0000005",
+        "surname": "EAAHNAE ELLINAS",
+        "issuingOffice": "A.E.A./A.A.- N.P.C.",
+        "validFrom": "",
+        "forenames": "ΓEOPΓOE GEORGIOS",
+        "validTo": "2012-08-28"
+      },
+      "confidence_scores": {
+        "country": 0.150390625,
+        "documentType": 0.81640625,
+        "documentNumber": 0.87890625,
+        "surname": 0.2216796875,
+        "issuingOffice": 0.41015625,
+        "validFrom": 0.73046875,
+        "forenames": 0.3359375,
+        "validTo": 0.7265625
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.13939758460975693,
+            "left": 0.4795647744305904,
+            "width": 0.09562249746162377,
+            "height": 0.027415732609068016
+          },
+          {
+            "top": 0.5634452918614403,
+            "left": 0.8896741790174487,
+            "width": 0.0474432272802261,
+            "height": 0.02741256163440864
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.14049627098420633,
+            "left": 0.3702467943493368,
+            "width": 0.014184512133906091,
+            "height": 0.025455684964273806
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.14062806225789395,
+            "left": 0.7449094386074103,
+            "width": 0.1124962436504946,
+            "height": 0.027171238357283717
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.2135570623381155,
+            "left": 0.3401661873554732,
+            "width": 0.10100276899533356,
+            "height": 0.027905073212645765
+          },
+          {
+            "top": 0.25504398658036187,
+            "left": 0.3399217946470112,
+            "width": 0.09073109814984609,
+            "height": 0.02790462536777666
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.7063723341430658,
+            "left": 0.5414335602243824,
+            "width": 0.18536860149659984,
+            "height": 0.027414013798155223
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.3350801505579374,
+            "left": 0.3401666734294209,
+            "width": 0.10736051413398201,
+            "height": 0.027659808226973837
+          },
+          {
+            "top": 0.3761993560311322,
+            "left": 0.3404113948004343,
+            "width": 0.1156751510132406,
+            "height": 0.027659753336502002
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.665745681658129,
+            "left": 0.6284935976774864,
+            "width": 0.09977662186202274,
+            "height": 0.033286914516336474
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test1cf7235c73//426ff594-9306-4425-a794-f01dd98b6c54/0/custom_output/0/result.json",
+        "s3_size": 5108,
+        "s3_last_modified": "2025-08-27T11:34:36+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:42.269304",
+      "source_file": "test1cf7235c73",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test1cf7235c73//426ff594-9306-4425-a794-f01dd98b6c54/job_metadata.json",
+        "s3_size": 468,
+        "s3_last_modified": "2025-08-27T11:34:36+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:42.418132",
+      "source_file": "test2072e7fc8b",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "POLSKA",
+        "documentType": "PASSPORT",
+        "surname": "KOWALSKA",
+        "documentNumber": "ZS 0000177",
+        "issuingOffice": "MINISTER S WIA",
+        "validFrom": "2006-07-13",
+        "forenames": "ANNA",
+        "validTo": "2016-07-13"
+      },
+      "confidence_scores": {
+        "country": 0.65234375,
+        "documentType": 0.74609375,
+        "surname": 0.91796875,
+        "documentNumber": 0.89453125,
+        "issuingOffice": 0.671875,
+        "validFrom": 0.75,
+        "forenames": 0.93359375,
+        "validTo": 0.70703125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.05074476078145445,
+            "left": 0.31676757783684256,
+            "width": 0.1229571357270765,
+            "height": 0.034096371478592576
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.17718682194858262,
+            "left": 0.03335658332651254,
+            "width": 0.06556951632709329,
+            "height": 0.019578715470669916
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.19590731227327116,
+            "left": 0.33112425088020164,
+            "width": 0.16017893579942027,
+            "height": 0.03377344099498833
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.11746950690628838,
+            "left": 0.731204624893942,
+            "width": 0.15846722456903062,
+            "height": 0.036098451191406616
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.5477055534559552,
+            "left": 0.7126189782430797,
+            "width": 0.12471899255887742,
+            "height": 0.020068217757872042
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.5555378952425213,
+            "left": 0.332348454813142,
+            "width": 0.21300044685714792,
+            "height": 0.03475225034965912
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.2694492004854138,
+            "left": 0.329412717742585,
+            "width": 0.08094538541921464,
+            "height": 0.03303890533411441
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6284671076791634,
+            "left": 0.331859658388929,
+            "width": 0.21348937454025224,
+            "height": 0.03475218995903018
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test2072e7fc8b//b4f0bfb9-577d-4021-9d83-dae24f41d011/0/custom_output/0/result.json",
+        "s3_size": 4350,
+        "s3_last_modified": "2025-08-27T11:39:05+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:42.496022",
+      "source_file": "test2072e7fc8b",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test2072e7fc8b//b4f0bfb9-577d-4021-9d83-dae24f41d011/job_metadata.json",
+        "s3_size": 465,
+        "s3_last_modified": "2025-08-27T11:39:05+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:42.616783",
+      "source_file": "test28959d7d32",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "CHN",
+        "documentType": "PASSPORT",
+        "surname": "XUE",
+        "documentNumber": "G32197739",
+        "issuingOffice": "Exit & Entry Administration Ministry of Public Security",
+        "validFrom": "2008-12-16",
+        "forenames": "JIANPING",
+        "validTo": "2018-12-15"
+      },
+      "confidence_scores": {
+        "country": 0.9375,
+        "documentType": 0.77734375,
+        "surname": 0.875,
+        "documentNumber": 0.9140625,
+        "issuingOffice": 0.6953125,
+        "validFrom": 0.8125,
+        "forenames": 0.890625,
+        "validTo": 0.859375
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.08995222159341369,
+            "left": 0.4652383573810426,
+            "width": 0.04367558753996115,
+            "height": 0.024330038366528195
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.10398262285813069,
+            "left": 0.12693279409036318,
+            "width": 0.10012334004763948,
+            "height": 0.024479453551526045
+          },
+          {
+            "top": 0.09206136232283509,
+            "left": 0.3357898597284717,
+            "width": 0.012164330590483663,
+            "height": 0.022751476221216038
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.21106662601480147,
+            "left": 0.34667885258869785,
+            "width": 0.10251340646190998,
+            "height": 0.03758600365880502
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.09910513396962345,
+            "left": 0.7086342062802803,
+            "width": 0.18896978590287006,
+            "height": 0.03639703073233555
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.6309583817935949,
+            "left": 0.60394071614334,
+            "width": 0.2932670572743544,
+            "height": 0.08584612756402332
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.5587709679905004,
+            "left": 0.3430639435852138,
+            "width": 0.03145817982510685,
+            "height": 0.031099854467599664
+          },
+          {
+            "top": 0.5602746669356451,
+            "left": 0.3966747072427587,
+            "width": 0.04868761799651938,
+            "height": 0.028792422776271698
+          },
+          {
+            "top": 0.5575785083899564,
+            "left": 0.4669322305534968,
+            "width": 0.06906616029337137,
+            "height": 0.031193942640701078
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.2996275699463117,
+            "left": 0.3452255474328372,
+            "width": 0.228400201728872,
+            "height": 0.035724591211491796
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.5592323138746792,
+            "left": 0.6057177320107816,
+            "width": 0.03192177276421415,
+            "height": 0.030681711281061674
+          },
+          {
+            "top": 0.5616809009511002,
+            "left": 0.6599702581003775,
+            "width": 0.049525886675781616,
+            "height": 0.02837344765003247
+          },
+          {
+            "top": 0.5599230932039122,
+            "left": 0.7308543439394873,
+            "width": 0.07016886159461533,
+            "height": 0.032671498053725045
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test28959d7d32//680a521a-101e-4ae2-abe8-1dfa6ef70d22/0/custom_output/0/result.json",
+        "s3_size": 6262,
+        "s3_last_modified": "2025-08-27T11:30:55+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:42.685075",
+      "source_file": "test28959d7d32",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test28959d7d32//680a521a-101e-4ae2-abe8-1dfa6ef70d22/job_metadata.json",
+        "s3_size": 495,
+        "s3_last_modified": "2025-08-27T11:30:55+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:42.809885",
+      "source_file": "test300bd2b863",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "IRL",
+        "documentType": "IP",
+        "surname": "O'SULLIVAN",
+        "documentNumber": "D23145890",
+        "issuingOffice": "Oifig na bPasanna, Baile Atha Cliath",
+        "validFrom": "2013-09-10",
+        "forenames": "LAUREN",
+        "validTo": "2023-09-09"
+      },
+      "confidence_scores": {
+        "country": 0.90625,
+        "documentType": 0.859375,
+        "surname": 0.86328125,
+        "documentNumber": 0.91796875,
+        "issuingOffice": 0.6328125,
+        "validFrom": 0.79296875,
+        "forenames": 0.84765625,
+        "validTo": 0.58984375
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.24353183131032566,
+            "left": 0.47854025375594306,
+            "width": 0.04768302752152803,
+            "height": 0.03842763269473906
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.24365268972807375,
+            "left": 0.34258248027970506,
+            "width": 0.02909910513581282,
+            "height": 0.038060391152732964
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.3301751167122134,
+            "left": 0.34258288618396604,
+            "width": 0.1988014221698542,
+            "height": 0.03916325465881365
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.23961771885503935,
+            "left": 0.6587566389757407,
+            "width": 0.24110193810900704,
+            "height": 0.048954108216811065
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.84196543557505,
+            "left": 0.03860434960249744,
+            "width": 0.17413645155350915,
+            "height": 0.06951168263443652
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.6858097855451927,
+            "left": 0.34502983952637956,
+            "width": 0.03227791496610166,
+            "height": 0.03818240729827416
+          },
+          {
+            "top": 0.6838518636995703,
+            "left": 0.388311339171412,
+            "width": 0.13253410959451967,
+            "height": 0.046993926397081
+          },
+          {
+            "top": 0.6848313786663175,
+            "left": 0.531604451588491,
+            "width": 0.07140189540218134,
+            "height": 0.03916141606475165
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.4195122139626103,
+            "left": 0.34307236284702447,
+            "width": 0.1146839238375632,
+            "height": 0.038428014163636226
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6853213171029781,
+            "left": 0.6577800339615154,
+            "width": 0.040102323167002685,
+            "height": 0.039161244436305864
+          },
+          {
+            "top": 0.6818948905451999,
+            "left": 0.7086413377348217,
+            "width": 0.15062732634936882,
+            "height": 0.04895176090940423
+          },
+          {
+            "top": 0.6853220303576728,
+            "left": 0.8705166523124498,
+            "width": 0.07922572329392963,
+            "height": 0.03867168904073515
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test300bd2b863//8fe74666-6a29-42ee-a06f-c5b69fb6a018/0/custom_output/0/result.json",
+        "s3_size": 5850,
+        "s3_last_modified": "2025-08-27T11:30:34+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:42.869182",
+      "source_file": "test300bd2b863",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test300bd2b863//8fe74666-6a29-42ee-a06f-c5b69fb6a018/job_metadata.json",
+        "s3_size": 567,
+        "s3_last_modified": "2025-08-27T11:30:34+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:42.991345",
+      "source_file": "test374a2b7aa1",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "UZBEKISTAN",
+        "documentType": "PASSPORT",
+        "surname": "UMAROV",
+        "documentNumber": "AA0000000",
+        "issuingOffice": "STATE PERSONAL AUTHORITY",
+        "validFrom": "1987-05-20",
+        "forenames": "ANVAR",
+        "validTo": "2021-11-11"
+      },
+      "confidence_scores": {
+        "country": 0.9375,
+        "documentType": 0.87890625,
+        "surname": 0.9453125,
+        "documentNumber": 0.91015625,
+        "issuingOffice": 0.34765625,
+        "validFrom": 0.1875,
+        "forenames": 0.953125,
+        "validTo": 0.486328125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.3988473668379566,
+            "left": 0.3356191654963641,
+            "width": 0.15415374708968027,
+            "height": 0.030863233041269256
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.10044224498793265,
+            "left": 0.1921798124553365,
+            "width": 0.1030237394487924,
+            "height": 0.02956098651255419
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.2131180684013854,
+            "left": 0.3363562192692347,
+            "width": 0.11153568146628756,
+            "height": 0.03229653400917917
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.11312750850280295,
+            "left": 0.7722073930137585,
+            "width": 0.16261290036310838,
+            "height": 0.03599411350038009
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.5926508307306438,
+            "left": 0.6449618222763639,
+            "width": 0.08549860345754001,
+            "height": 0.05731425971664017
+          },
+          {
+            "top": 0.5907521110083562,
+            "left": 0.8789304005882655,
+            "width": 0.0759126436927623,
+            "height": 0.020676328608800754
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.45488912188042774,
+            "left": 0.4498345118501858,
+            "width": 0.06867185033689088,
+            "height": 0.035691627904034906
+          },
+          {
+            "top": 0.6194052147574254,
+            "left": 0.336098412921584,
+            "width": 0.18191915789406105,
+            "height": 0.03501510669088326
+          },
+          {
+            "top": 0.6864378973801265,
+            "left": 0.3370703376191789,
+            "width": 0.03677688239664689,
+            "height": 0.03350468398432083
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.31612312959379935,
+            "left": 0.33757036565610976,
+            "width": 0.09083791585589573,
+            "height": 0.031326066994233515
+          },
+          {
+            "top": 0.8065401312610783,
+            "left": 0.06912434006408817,
+            "width": 0.8788724320170804,
+            "height": 0.03924015443059892
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6864378973801265,
+            "left": 0.3370703376191789,
+            "width": 0.03677688239664689,
+            "height": 0.03350468398432083
+          },
+          {
+            "top": 0.686901809708715,
+            "left": 0.3950344827877425,
+            "width": 0.030686527098837124,
+            "height": 0.03253069379774365
+          },
+          {
+            "top": 0.6844370906199739,
+            "left": 0.44642054014926696,
+            "width": 0.07159632879677741,
+            "height": 0.03545883302635455
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test374a2b7aa1//6e85b1ba-f422-416c-9d9e-2cef84f9c817/0/custom_output/0/result.json",
+        "s3_size": 6592,
+        "s3_last_modified": "2025-08-27T11:33:02+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:43.049029",
+      "source_file": "test374a2b7aa1",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test374a2b7aa1//6e85b1ba-f422-416c-9d9e-2cef84f9c817/job_metadata.json",
+        "s3_size": 471,
+        "s3_last_modified": "2025-08-27T11:33:02+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:43.171299",
+      "source_file": "test3b323d591f",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "PEOPLE'S REPUBLIC OF CHINA",
+        "documentType": "SERVICE PASSPORT",
+        "surname": "YANG",
+        "documentNumber": "SE0000000",
+        "issuingOffice": "MINISTRY OF FOREIGN AFFAIRS",
+        "validFrom": "2010-05-01",
+        "forenames": "ZHAO",
+        "validTo": "2015-05-01"
+      },
+      "confidence_scores": {
+        "country": 0.84765625,
+        "documentType": 0.8125,
+        "surname": 0.91015625,
+        "documentNumber": 0.890625,
+        "issuingOffice": 0.7421875,
+        "validFrom": 0.76171875,
+        "forenames": 0.93359375,
+        "validTo": 0.73828125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.03691250709899992,
+            "left": 0.3398873048594609,
+            "width": 0.5262146286418576,
+            "height": 0.03881763258877782
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.13861674922860684,
+            "left": 0.07060524891692938,
+            "width": 0.15692332981483392,
+            "height": 0.01725184098537269
+          },
+          {
+            "top": 0.15892551415625625,
+            "left": 0.31347872217446365,
+            "width": 0.015160476852178029,
+            "height": 0.028506715178807707
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.29411734338694834,
+            "left": 0.3139677651293919,
+            "width": 0.07311256568350372,
+            "height": 0.033523279482093105
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.1586767709789201,
+            "left": 0.729168627549892,
+            "width": 0.2044213657469509,
+            "height": 0.04404586569048352
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.6547891858350385,
+            "left": 0.3129896600748587,
+            "width": 0.45872512672616833,
+            "height": 0.03474985649243467
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.47689881756639274,
+            "left": 0.6460303017706044,
+            "width": 0.14231237872836988,
+            "height": 0.02960870689068018
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.29460619054774245,
+            "left": 0.39588316821433633,
+            "width": 0.06675493012621425,
+            "height": 0.029363469154036315
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.5676791554473654,
+            "left": 0.6460301748556352,
+            "width": 0.14133423423595448,
+            "height": 0.029364024099528097
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test3b323d591f//a31c9bfb-c03e-4338-932d-6168c8f58303/0/custom_output/0/result.json",
+        "s3_size": 4797,
+        "s3_last_modified": "2025-08-27T10:02:07+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:43.269082",
+      "source_file": "test3b323d591f",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test3b323d591f//a31c9bfb-c03e-4338-932d-6168c8f58303/job_metadata.json",
+        "s3_size": 439,
+        "s3_last_modified": "2025-08-27T10:02:08+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:43.426383",
+      "source_file": "test458dc901e8",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "ISLAMIC REPUBLIC OF IRAN",
+        "documentType": "P",
+        "surname": "RAHNAMA",
+        "documentNumber": "X53295011",
+        "issuingOffice": "IMMIGRATION AND PASSPORT POLICE",
+        "validFrom": "2020-11-01",
+        "forenames": "MARZIEH",
+        "validTo": "2025-11-01"
+      },
+      "confidence_scores": {
+        "country": 0.90625,
+        "documentType": 0.8671875,
+        "surname": 0.953125,
+        "documentNumber": 0.9296875,
+        "issuingOffice": 0.8125,
+        "validFrom": 0.66796875,
+        "forenames": 0.91796875,
+        "validTo": 0.7109375
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.08563718633829535,
+            "left": 0.3037569516834938,
+            "width": 0.25385767719246743,
+            "height": 0.016651467109936036
+          },
+          {
+            "top": 0.5271005342786158,
+            "left": 0.5911358517822651,
+            "width": 0.056339939841569264,
+            "height": 0.015284518299484184
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.5654664811247533,
+            "left": 0.38663438235466624,
+            "width": 0.0178393583904346,
+            "height": 0.014569276082240457
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.5977938930859046,
+            "left": 0.40946104357052077,
+            "width": 0.12046756617658932,
+            "height": 0.01662697420939141
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.5651471601026687,
+            "left": 0.7777628505744881,
+            "width": 0.1180955711766124,
+            "height": 0.01708348228016765
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.12394450276587535,
+            "left": 0.3026659365039872,
+            "width": 0.2881567028590435,
+            "height": 0.016683036006123808
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.777575344579737,
+            "left": 0.4527531195035227,
+            "width": 0.12461917489228136,
+            "height": 0.017147036666150806
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.6358834749959936,
+            "left": 0.38613352074131435,
+            "width": 0.10909890340855283,
+            "height": 0.0165578975152586
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.7999464771008523,
+            "left": 0.45284834503949445,
+            "width": 0.12414250395149862,
+            "height": 0.016681044038962645
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test458dc901e8//135076b2-ea08-4e40-a68e-08b90906c8af/0/custom_output/0/result.json",
+        "s3_size": 4769,
+        "s3_last_modified": "2025-08-27T11:33:43+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:43.535222",
+      "source_file": "test458dc901e8",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test458dc901e8//135076b2-ea08-4e40-a68e-08b90906c8af/job_metadata.json",
+        "s3_size": 468,
+        "s3_last_modified": "2025-08-27T11:33:43+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:43.686943",
+      "source_file": "test55d86340da",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "AUSTRALIA",
+        "documentType": "Passport",
+        "surname": "BEAN",
+        "documentNumber": "023477812",
+        "issuingOffice": "PASSPORT AGENCY",
+        "validFrom": "",
+        "forenames": "M",
+        "validTo": ""
+      },
+      "confidence_scores": {
+        "country": 0.52734375,
+        "documentType": 0.828125,
+        "surname": 0.8671875,
+        "documentNumber": 0.9453125,
+        "issuingOffice": 0.8359375,
+        "validFrom": 0.78125,
+        "forenames": 0.494140625,
+        "validTo": 0.8671875
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.49590733375237567,
+            "left": 0.6845619082450867,
+            "width": 0.16121187631946576,
+            "height": 0.04300091300278924
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.028841804525266197,
+            "left": 0.1038292511595167,
+            "width": 0.2006737181126398,
+            "height": 0.04186938160960386
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.13388530222467243,
+            "left": 0.3670487548546854,
+            "width": 0.07502786742231432,
+            "height": 0.04428200273071761
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.056466334526960246,
+            "left": 0.748131996233308,
+            "width": 0.1666065421298507,
+            "height": 0.04638685300987039
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.49607179892381964,
+            "left": 0.6847060377504279,
+            "width": 0.16112499992383944,
+            "height": 0.042791824022758995
+          },
+          {
+            "top": 0.5566030507161847,
+            "left": 0.6644581431344091,
+            "width": 0.15452116770468594,
+            "height": 0.047546897497059204
+          },
+          {
+            "top": 0.5552674778431209,
+            "left": 0.8350481319923452,
+            "width": 0.11921108597372598,
+            "height": 0.04941346087219012
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.4276683728241724,
+            "left": 0.36296762013675876,
+            "width": 0.020890492926673443,
+            "height": 0.04228135472040995
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test55d86340da//5f4e042a-7872-4b82-9536-43219ce60ae0/0/custom_output/0/result.json",
+        "s3_size": 4279,
+        "s3_last_modified": "2025-08-27T11:31:51+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:43.751689",
+      "source_file": "test55d86340da",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test55d86340da//5f4e042a-7872-4b82-9536-43219ce60ae0/job_metadata.json",
+        "s3_size": 463,
+        "s3_last_modified": "2025-08-27T11:31:51+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:43.896358",
+      "source_file": "test632c51ec26",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "CAN",
+        "documentType": "P",
+        "surname": "MURPHY",
+        "documentNumber": "AE021527",
+        "issuingOffice": "GATINEAU",
+        "validFrom": "2018-01-26",
+        "forenames": "CHRISTINE EDITH",
+        "validTo": "2018-01-26"
+      },
+      "confidence_scores": {
+        "country": 0.91015625,
+        "documentType": 0.9296875,
+        "surname": 0.9296875,
+        "documentNumber": 0.91015625,
+        "issuingOffice": 0.9375,
+        "validFrom": 0.80078125,
+        "forenames": 0.9375,
+        "validTo": 0.76171875
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.3743378419962128,
+            "left": 0.47872440486032974,
+            "width": 0.044020401635467055,
+            "height": 0.018935305085411802
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.36911828384380774,
+            "left": 0.3632914558902827,
+            "width": 0.01272092264377972,
+            "height": 0.017275962917155052
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.41384348436498813,
+            "left": 0.36108052843818694,
+            "width": 0.09465308149771584,
+            "height": 0.022018087692368737
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.24921267302575212,
+            "left": 0.7124872005606047,
+            "width": 0.17553660192502918,
+            "height": 0.02581221866422556
+          },
+          {
+            "top": 0.3833618363402261,
+            "left": 0.7589554799086508,
+            "width": 0.16479515684308454,
+            "height": 0.0312500361945755
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.7438219498749312,
+            "left": 0.352697420174015,
+            "width": 0.13039422454699323,
+            "height": 0.02131164991725132
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.6448579711366089,
+            "left": 0.35443004558986935,
+            "width": 0.03180523488472098,
+            "height": 0.021307510362682525
+          },
+          {
+            "top": 0.6477000734537189,
+            "left": 0.40629029746631884,
+            "width": 0.045501230157714234,
+            "height": 0.01988697013339169
+          },
+          {
+            "top": 0.6481750847628562,
+            "left": 0.47233615753454383,
+            "width": 0.06213089839650632,
+            "height": 0.021780674306420278
+          },
+          {
+            "top": 0.6510180963724577,
+            "left": 0.5721336064586324,
+            "width": 0.0283726784718058,
+            "height": 0.02083254285627778
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.4597554985189101,
+            "left": 0.36082672418856165,
+            "width": 0.14234740639480503,
+            "height": 0.0227320667142773
+          },
+          {
+            "top": 0.46521284830628185,
+            "left": 0.5222481965585775,
+            "width": 0.0777697971973671,
+            "height": 0.020595725687221345
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6931548064215586,
+            "left": 0.3531971468357136,
+            "width": 0.031072537577357784,
+            "height": 0.020835122136865114
+          },
+          {
+            "top": 0.6964697818192762,
+            "left": 0.405548550497529,
+            "width": 0.045258437056995116,
+            "height": 0.019887786096398963
+          },
+          {
+            "top": 0.6964702207168878,
+            "left": 0.47184171328454505,
+            "width": 0.061154929472473585,
+            "height": 0.02178139622791675
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test632c51ec26//c973149e-5a8e-4f45-8bed-9f69c0dd0ce1/0/custom_output/0/result.json",
+        "s3_size": 6925,
+        "s3_last_modified": "2025-08-27T11:34:18+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:43.966124",
+      "source_file": "test632c51ec26",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test632c51ec26//c973149e-5a8e-4f45-8bed-9f69c0dd0ce1/job_metadata.json",
+        "s3_size": 468,
+        "s3_last_modified": "2025-08-27T11:34:18+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:44.110661",
+      "source_file": "test6a2ee96158",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "PEOPLE'S REPUBLIC OF CHINA",
+        "documentType": "SERVICE PASSPORT",
+        "surname": "YANG",
+        "documentNumber": "SE0000000",
+        "issuingOffice": "MINISTRY OF FOREIGN AFFAIRS",
+        "validFrom": "2010-05-01",
+        "forenames": "ZHAO",
+        "validTo": "2015-05-01"
+      },
+      "confidence_scores": {
+        "country": 0.84765625,
+        "documentType": 0.8125,
+        "surname": 0.91015625,
+        "documentNumber": 0.890625,
+        "issuingOffice": 0.74609375,
+        "validFrom": 0.76171875,
+        "forenames": 0.9296875,
+        "validTo": 0.73828125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.03691250709899992,
+            "left": 0.3398873048594609,
+            "width": 0.5262146286418576,
+            "height": 0.03881763258877782
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.13861674922860684,
+            "left": 0.07060524891692938,
+            "width": 0.15692332981483392,
+            "height": 0.01725184098537269
+          },
+          {
+            "top": 0.15892551415625625,
+            "left": 0.31347872217446365,
+            "width": 0.015160476852178029,
+            "height": 0.028506715178807707
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.29411734338694834,
+            "left": 0.3139677651293919,
+            "width": 0.07311256568350372,
+            "height": 0.033523279482093105
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.1586767709789201,
+            "left": 0.729168627549892,
+            "width": 0.2044213657469509,
+            "height": 0.04404586569048352
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.6547891858350385,
+            "left": 0.3129896600748587,
+            "width": 0.45872512672616833,
+            "height": 0.03474985649243467
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.47689881756639274,
+            "left": 0.6460303017706044,
+            "width": 0.14231237872836988,
+            "height": 0.02960870689068018
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.29460619054774245,
+            "left": 0.39588316821433633,
+            "width": 0.06675493012621425,
+            "height": 0.029363469154036315
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.5676791554473654,
+            "left": 0.6460301748556352,
+            "width": 0.14133423423595448,
+            "height": 0.029364024099528097
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test6a2ee96158//660d1247-f6b9-4278-a36a-bd41e347f846/0/custom_output/0/result.json",
+        "s3_size": 4797,
+        "s3_last_modified": "2025-08-27T09:55:50+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:44.176266",
+      "source_file": "test6a2ee96158",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test6a2ee96158//660d1247-f6b9-4278-a36a-bd41e347f846/job_metadata.json",
+        "s3_size": 439,
+        "s3_last_modified": "2025-08-27T09:55:50+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:44.355013",
+      "source_file": "test76ff4af459",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "TUR",
+        "documentType": "PD",
+        "surname": "ORNEK",
+        "documentNumber": "P 00100366",
+        "issuingOffice": "ANKARA",
+        "validFrom": "2010-04-15",
+        "forenames": "ZEYNEP",
+        "validTo": "2015-04-15"
+      },
+      "confidence_scores": {
+        "country": 0.87890625,
+        "documentType": 0.58984375,
+        "surname": 0.94921875,
+        "documentNumber": 0.7734375,
+        "issuingOffice": 0.90625,
+        "validFrom": 0.7578125,
+        "forenames": 0.92578125,
+        "validTo": 0.73828125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.2662981562233973,
+            "left": 0.6402251817484713,
+            "width": 0.04157363622768406,
+            "height": 0.02618845914149559
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.11620880118802318,
+            "left": 0.3025016031527363,
+            "width": 0.02543321031191048,
+            "height": 0.026004820649056903
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.18443214974049962,
+            "left": 0.30030101406763093,
+            "width": 0.07238656151783257,
+            "height": 0.027534830881106698
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.16007709259832084,
+            "left": 0.6343559549153267,
+            "width": 0.017118574530887498,
+            "height": 0.048215843224127336
+          },
+          {
+            "top": 0.16105440130354076,
+            "left": 0.6681039890581305,
+            "width": 0.16874078483899035,
+            "height": 0.05139899290556743
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.4956272360836492,
+            "left": 0.6387578877262003,
+            "width": 0.08216883030823752,
+            "height": 0.025209326632132156
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.49269141751484985,
+            "left": 0.3003025969040344,
+            "width": 0.15528803923801354,
+            "height": 0.02667800373289947
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.262629225255528,
+            "left": 0.29932322250222365,
+            "width": 0.08119022869530468,
+            "height": 0.02765712553430716
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.5702760555101335,
+            "left": 0.3003029952813487,
+            "width": 0.15528785593554062,
+            "height": 0.02594353164889296
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test76ff4af459//20a39f8b-0d49-4fe5-a4e7-8523b5163cd5/0/custom_output/0/result.json",
+        "s3_size": 4700,
+        "s3_last_modified": "2025-08-27T11:30:15+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:44.465453",
+      "source_file": "test76ff4af459",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test76ff4af459//20a39f8b-0d49-4fe5-a4e7-8523b5163cd5/job_metadata.json",
+        "s3_size": 465,
+        "s3_last_modified": "2025-08-27T11:30:15+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:44.663355",
+      "source_file": "test78a6a4d5f7",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "USA",
+        "documentType": "PASSPORT",
+        "surname": "",
+        "documentNumber": "E00007730",
+        "issuingOffice": "UNITED STATES DEPARTMENT OF STATE",
+        "validFrom": "2020-10-15",
+        "forenames": "",
+        "validTo": "2030-10-14"
+      },
+      "confidence_scores": {
+        "country": 0.93359375,
+        "documentType": 0.890625,
+        "surname": 0.94140625,
+        "documentNumber": 0.8984375,
+        "issuingOffice": 0.84375,
+        "validFrom": 0.8203125,
+        "forenames": 0.94140625,
+        "validTo": 0.796875
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.21367529548143896,
+            "left": 0.06543318080419447,
+            "width": 0.13234405385709916,
+            "height": 0.06521938655442347
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.08637240364308169,
+            "left": 0.07511605996832724,
+            "width": 0.11484539094975879,
+            "height": 0.03003031145201586
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.18787383037690605,
+            "left": 0.6634460166299937,
+            "width": 0.17953177938300569,
+            "height": 0.050483766368782074
+          },
+          {
+            "top": 0.18850378824447736,
+            "left": 0.9117620599470212,
+            "width": 0.06448369698395107,
+            "height": 0.5920329728258826
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.7926427278449006,
+            "left": 0.3369406528859522,
+            "width": 0.4007309112518569,
+            "height": 0.030342351041884208
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.6623501905058115,
+            "left": 0.3420501415021929,
+            "width": 0.15730693349294694,
+            "height": 0.039834727233455935
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.7253180642592896,
+            "left": 0.34156810452174935,
+            "width": 0.15877113065951376,
+            "height": 0.04129235844737744
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test78a6a4d5f7//325467af-9f05-4e0f-8cd2-007b5e857279/0/custom_output/0/result.json",
+        "s3_size": 3962,
+        "s3_last_modified": "2025-08-27T11:35:33+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:44.778483",
+      "source_file": "test78a6a4d5f7",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test78a6a4d5f7//325467af-9f05-4e0f-8cd2-007b5e857279/job_metadata.json",
+        "s3_size": 470,
+        "s3_last_modified": "2025-08-27T11:35:33+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:44.960433",
+      "source_file": "test7f8fc61f3f",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "UTOPIA",
+        "documentType": "Passport",
+        "surname": "ERIKSSON",
+        "documentNumber": "L898902C3",
+        "issuingOffice": "PASSPORT OFFICE",
+        "validFrom": "1974-12-12",
+        "forenames": "ANNA MARIA",
+        "validTo": "2024-04-15"
+      },
+      "confidence_scores": {
+        "country": 0.89453125,
+        "documentType": 0.58984375,
+        "surname": 0.92578125,
+        "documentNumber": 0.91796875,
+        "issuingOffice": 0.859375,
+        "validFrom": 0.5,
+        "forenames": 0.94140625,
+        "validTo": 0.66796875
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.06313103403579812,
+            "left": 0.33860639440286255,
+            "width": 0.16032152817369522,
+            "height": 0.054132547425833566
+          },
+          {
+            "top": 0.18891520467712833,
+            "left": 0.5022857700545388,
+            "width": 0.05176534789083753,
+            "height": 0.03443783357333083
+          },
+          {
+            "top": 0.41172543569176573,
+            "left": 0.35035668520462393,
+            "width": 0.1035294003829646,
+            "height": 0.032146007349193206
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.1361065221688675,
+            "left": 0.12988476467345622,
+            "width": 0.12089693925216988,
+            "height": 0.09122690979013892
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.26769299219369014,
+            "left": 0.3493947931346981,
+            "width": 0.1207824497920269,
+            "height": 0.03286946888041903
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.18988656468274312,
+            "left": 0.7309120346895924,
+            "width": 0.11983047772236166,
+            "height": 0.03323161084606416
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.6186160911109244,
+            "left": 0.7002624610922602,
+            "width": 0.21234813482092085,
+            "height": 0.03336379943784118
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.4784265862547924,
+            "left": 0.3517961153456466,
+            "width": 0.17974033846796278,
+            "height": 0.0338419274996099
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.3421253561223145,
+            "left": 0.3515533085086855,
+            "width": 0.1430708808155225,
+            "height": 0.030696334020461014
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6944867490456204,
+            "left": 0.3520407812697851,
+            "width": 0.16033187921378356,
+            "height": 0.03094478746213558
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test7f8fc61f3f//d1c4841e-5fb9-45f9-81f3-2d5fd6eb0abd/0/custom_output/0/result.json",
+        "s3_size": 5107,
+        "s3_last_modified": "2025-08-27T11:37:19+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:45.020317",
+      "source_file": "test7f8fc61f3f",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test7f8fc61f3f//d1c4841e-5fb9-45f9-81f3-2d5fd6eb0abd/job_metadata.json",
+        "s3_size": 469,
+        "s3_last_modified": "2025-08-27T11:37:20+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:45.155945",
+      "source_file": "test969614252e",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "SINGAPORE",
+        "documentType": "PASSPORT",
+        "surname": "WONG",
+        "documentNumber": "0000000E",
+        "issuingOffice": "MINISTRY OF HOME AFFAIRS",
+        "validFrom": "2017-10-30",
+        "forenames": "KARA",
+        "validTo": "2022-10-30"
+      },
+      "confidence_scores": {
+        "country": 0.78515625,
+        "documentType": 0.71875,
+        "surname": 0.53515625,
+        "documentNumber": 0.9140625,
+        "issuingOffice": 0.87890625,
+        "validFrom": 0.72265625,
+        "forenames": 0.80078125,
+        "validTo": 0.82421875
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.5069695377344939,
+            "left": 0.49114220094080846,
+            "width": 0.10866005637347514,
+            "height": 0.03963402271319916
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.0793621007607628,
+            "left": 0.08144165901387038,
+            "width": 0.16479194741707814,
+            "height": 0.062145552878596494
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.37295278939649945,
+            "left": 0.37960816634348926,
+            "width": 0.05266208438133535,
+            "height": 0.03988245815066388
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.24143480509484055,
+            "left": 0.4917367877699752,
+            "width": 0.11155468383611467,
+            "height": 0.04244022048618695
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.685046430545257,
+            "left": 0.4896331417178022,
+            "width": 0.09911905122528436,
+            "height": 0.04045192950097731
+          },
+          {
+            "top": 0.6854399278756353,
+            "left": 0.5985668387259492,
+            "width": 0.08640174111399135,
+            "height": 0.04042913491106803
+          },
+          {
+            "top": 0.6868133959885074,
+            "left": 0.6971257190843152,
+            "width": 0.08730358708155805,
+            "height": 0.04189696947963406
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.6798326090791593,
+            "left": 0.31907733134066957,
+            "width": 0.07382694768643544,
+            "height": 0.0438865122904436
+          },
+          {
+            "top": 0.6812470305970713,
+            "left": 0.40366550305846205,
+            "width": 0.050548258889280384,
+            "height": 0.043362663652056765
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.37223435153093615,
+            "left": 0.3189858073776763,
+            "width": 0.051266236701852874,
+            "height": 0.03964123929799307
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.7694112352778943,
+            "left": 0.3179973672711116,
+            "width": 0.0750027178443794,
+            "height": 0.04390379435755376
+          },
+          {
+            "top": 0.7698290737732285,
+            "left": 0.40282067598985694,
+            "width": 0.05148895827606759,
+            "height": 0.043867002763710694
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test969614252e//21a953eb-6669-4c05-aa53-8a79299422ba/0/custom_output/0/result.json",
+        "s3_size": 5848,
+        "s3_last_modified": "2025-08-27T11:32:27+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:45.228767",
+      "source_file": "test969614252e",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test969614252e//21a953eb-6669-4c05-aa53-8a79299422ba/job_metadata.json",
+        "s3_size": 471,
+        "s3_last_modified": "2025-08-27T11:32:28+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:45.397013",
+      "source_file": "test99d1258c3e",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "THA",
+        "documentType": "P",
+        "surname": "POSHNASWADIWONG",
+        "documentNumber": "AC1062346",
+        "issuingOffice": "MINISTRY OF FOREIGN AFFAIRS",
+        "validFrom": "2020-03-05",
+        "forenames": "MATHANIDA",
+        "validTo": "2025-03-04"
+      },
+      "confidence_scores": {
+        "country": 0.58203125,
+        "documentType": 0.77734375,
+        "surname": 0.8984375,
+        "documentNumber": 0.91796875,
+        "issuingOffice": 0.85546875,
+        "validFrom": 0.8359375,
+        "forenames": 0.8359375,
+        "validTo": 0.80859375
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.07741862558446215,
+            "left": 0.4154196579867107,
+            "width": 0.04401423571729196,
+            "height": 0.02906783816319823
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.0774861063425973,
+            "left": 0.3012290915886745,
+            "width": 0.01540490984861892,
+            "height": 0.02625158552671536
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.14613421939020435,
+            "left": 0.3026969408576675,
+            "width": 0.21958021983501708,
+            "height": 0.03231751325723889
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.07966949740008722,
+            "left": 0.6489408622709327,
+            "width": 0.11150602861813919,
+            "height": 0.03053983857676905
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.5154821019086991,
+            "left": 0.6533466042463065,
+            "width": 0.18437701368419235,
+            "height": 0.06511141340559312
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.5879389840192951,
+            "left": 0.3019681717415787,
+            "width": 0.14524491447119042,
+            "height": 0.030841829942748866
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.21883132649738943,
+            "left": 0.3569808177445218,
+            "width": 0.1278849247676569,
+            "height": 0.030722412762577672
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6628371283615646,
+            "left": 0.3012354311231628,
+            "width": 0.1437777516680015,
+            "height": 0.03230969133649597
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test99d1258c3e//7a7bdb8f-c89a-491e-b5da-fbf82af2abcf/0/custom_output/0/result.json",
+        "s3_size": 4390,
+        "s3_last_modified": "2025-08-27T11:34:00+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:45.469036",
+      "source_file": "test99d1258c3e",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test99d1258c3e//7a7bdb8f-c89a-491e-b5da-fbf82af2abcf/job_metadata.json",
+        "s3_size": 468,
+        "s3_last_modified": "2025-08-27T11:34:00+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:45.608661",
+      "source_file": "test9ad5366242",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "JAPAN",
+        "documentType": "PASSPORT",
+        "surname": "GAIMU",
+        "documentNumber": "XS1234567",
+        "issuingOffice": "MINISTRY OF FOREIGN AFFAIRS",
+        "validFrom": "2006-01-01",
+        "forenames": "SAKURA",
+        "validTo": "2011-01-01"
+      },
+      "confidence_scores": {
+        "country": 0.8984375,
+        "documentType": 0.875,
+        "surname": 0.93359375,
+        "documentNumber": 0.94140625,
+        "issuingOffice": 0.8515625,
+        "validFrom": 0.78515625,
+        "forenames": 0.9453125,
+        "validTo": 0.82421875
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.0529991693503401,
+            "left": 0.682807970399808,
+            "width": 0.08657507907760442,
+            "height": 0.034203700151736
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.14931169299839064,
+            "left": 0.08821498142980559,
+            "width": 0.15181390157667674,
+            "height": 0.03756996075680846
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.23276632291487792,
+            "left": 0.3201241374574722,
+            "width": 0.10076037620604661,
+            "height": 0.03573364620569691
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.15028288632411596,
+            "left": 0.6676461083469195,
+            "width": 0.18195364853931228,
+            "height": 0.036835878315769066
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.6985040421625406,
+            "left": 0.3215987342696204,
+            "width": 0.1919807732303942,
+            "height": 0.047482778746892884
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.541384866668093,
+            "left": 0.3191506802326618,
+            "width": 0.0359511405657475,
+            "height": 0.037200967366496696
+          },
+          {
+            "top": 0.5413833907167254,
+            "left": 0.38298128873447723,
+            "width": 0.058206088437083414,
+            "height": 0.03524341158673716
+          },
+          {
+            "top": 0.5413816464142387,
+            "left": 0.46393108605527367,
+            "width": 0.07899361641821523,
+            "height": 0.0376911221374131
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.30985949121383505,
+            "left": 0.3211035852427631,
+            "width": 0.11934695494428493,
+            "height": 0.034999693221654804
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6182328806822788,
+            "left": 0.3189073126626034,
+            "width": 0.03619566552095499,
+            "height": 0.03769038869259367
+          },
+          {
+            "top": 0.6182313437347672,
+            "left": 0.38249328221037393,
+            "width": 0.05796145737871283,
+            "height": 0.03524337135635036
+          },
+          {
+            "top": 0.6187190363561516,
+            "left": 0.4636875487081617,
+            "width": 0.07581423681630123,
+            "height": 0.03769104073381291
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/test9ad5366242//ac9440b7-d57c-4965-81e2-00df97067264/0/custom_output/0/result.json",
+        "s3_size": 5846,
+        "s3_last_modified": "2025-08-27T11:29:58+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:45.674098",
+      "source_file": "test9ad5366242",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/test9ad5366242//ac9440b7-d57c-4965-81e2-00df97067264/job_metadata.json",
+        "s3_size": 468,
+        "s3_last_modified": "2025-08-27T11:29:58+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:45.792087",
+      "source_file": "testa747a86574",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "PHL",
+        "documentType": "P",
+        "surname": "DOE",
+        "documentNumber": "P5434301A",
+        "issuingOffice": "DFA MANILA",
+        "validFrom": "2021-06-27",
+        "forenames": "JOHN TEMPLATES",
+        "validTo": "2026-06-26"
+      },
+      "confidence_scores": {
+        "country": 0.921875,
+        "documentType": 0.921875,
+        "surname": 0.921875,
+        "documentNumber": 0.91796875,
+        "issuingOffice": 0.89453125,
+        "validFrom": 0.8125,
+        "forenames": 0.65625,
+        "validTo": 0.8359375
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.09432947563647139,
+            "left": 0.44116410230328906,
+            "width": 0.04475493863607449,
+            "height": 0.0326284299820508
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.09537118815760694,
+            "left": 0.33844882762592404,
+            "width": 0.013206606758990769,
+            "height": 0.030240704551036737
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.18156272478285507,
+            "left": 0.3404064097499793,
+            "width": 0.04353195003314542,
+            "height": 0.03244448853705975
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.0929187335008346,
+            "left": 0.6832803090081273,
+            "width": 0.15847729198944527,
+            "height": 0.03832257307132689
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.7257627762968499,
+            "left": 0.6060022197749854,
+            "width": 0.04597712770980977,
+            "height": 0.03183155086239087
+          },
+          {
+            "top": 0.7257630240878454,
+            "left": 0.6627397815080637,
+            "width": 0.0963563740024862,
+            "height": 0.03232155008226145
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.631247243610867,
+            "left": 0.33992305851261123,
+            "width": 0.03081453505060372,
+            "height": 0.0352594013957781
+          },
+          {
+            "top": 0.6336959195391885,
+            "left": 0.3827204739237631,
+            "width": 0.04622159280461069,
+            "height": 0.03232120046599818
+          },
+          {
+            "top": 0.6322269253246081,
+            "left": 0.43945767082204634,
+            "width": 0.05967233594250171,
+            "height": 0.03525956132140773
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.2708148081755211,
+            "left": 0.33991843602754107,
+            "width": 0.06236288961452591,
+            "height": 0.03305649572655106
+          },
+          {
+            "top": 0.3626374096304362,
+            "left": 0.3391859395934737,
+            "width": 0.14282258267640396,
+            "height": 0.034280733519831574
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.7213542198352038,
+            "left": 0.34016876983765243,
+            "width": 0.031548129598033214,
+            "height": 0.03525929179498222
+          },
+          {
+            "top": 0.7238029540698192,
+            "left": 0.3819878600245634,
+            "width": 0.04597693164356004,
+            "height": 0.03281083656285688
+          },
+          {
+            "top": 0.7223340661268578,
+            "left": 0.4389694777605711,
+            "width": 0.0633405448565168,
+            "height": 0.034769804554392936
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testa747a86574//e2715187-793c-4e6a-ad5d-04cead16ec0f/0/custom_output/0/result.json",
+        "s3_size": 6542,
+        "s3_last_modified": "2025-08-27T11:31:36+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:45.859608",
+      "source_file": "testa747a86574",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testa747a86574//e2715187-793c-4e6a-ad5d-04cead16ec0f/job_metadata.json",
+        "s3_size": 474,
+        "s3_last_modified": "2025-08-27T11:31:37+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:45.984349",
+      "source_file": "testb11fff43bb",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "PEOPLE'S REPUBLIC OF CHINA",
+        "documentType": "SERVICE PASSPORT",
+        "surname": "YANG",
+        "documentNumber": "SE0000000",
+        "issuingOffice": "MINISTRY OF FOREIGN AFFAIRS",
+        "validFrom": "2010-05-01",
+        "forenames": "ZHAO",
+        "validTo": "2015-05-01"
+      },
+      "confidence_scores": {
+        "country": 0.84765625,
+        "documentType": 0.8125,
+        "surname": 0.91015625,
+        "documentNumber": 0.890625,
+        "issuingOffice": 0.7421875,
+        "validFrom": 0.765625,
+        "forenames": 0.93359375,
+        "validTo": 0.73828125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.03691250709899992,
+            "left": 0.3398873048594609,
+            "width": 0.5262146286418576,
+            "height": 0.03881763258877782
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.13861674922860684,
+            "left": 0.07060524891692938,
+            "width": 0.15692332981483392,
+            "height": 0.01725184098537269
+          },
+          {
+            "top": 0.15892551415625625,
+            "left": 0.31347872217446365,
+            "width": 0.015160476852178029,
+            "height": 0.028506715178807707
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.29411734338694834,
+            "left": 0.3139677651293919,
+            "width": 0.07311256568350372,
+            "height": 0.033523279482093105
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.1586767709789201,
+            "left": 0.729168627549892,
+            "width": 0.2044213657469509,
+            "height": 0.04404586569048352
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.6547891858350385,
+            "left": 0.3129896600748587,
+            "width": 0.45872512672616833,
+            "height": 0.03474985649243467
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.47689881756639274,
+            "left": 0.6460303017706044,
+            "width": 0.14231237872836988,
+            "height": 0.02960870689068018
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.29460619054774245,
+            "left": 0.39588316821433633,
+            "width": 0.06675493012621425,
+            "height": 0.029363469154036315
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.5676791554473654,
+            "left": 0.6460301748556352,
+            "width": 0.14133423423595448,
+            "height": 0.029364024099528097
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testb11fff43bb//5dc709a6-2edb-4170-b807-3ea23231a0e1/0/custom_output/0/result.json",
+        "s3_size": 4795,
+        "s3_last_modified": "2025-08-27T11:32:10+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:46.056753",
+      "source_file": "testb11fff43bb",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testb11fff43bb//5dc709a6-2edb-4170-b807-3ea23231a0e1/job_metadata.json",
+        "s3_size": 464,
+        "s3_last_modified": "2025-08-27T11:32:11+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:46.209505",
+      "source_file": "testc0c3eed1ac",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "REPUBLIC OF UTORIA",
+        "documentType": "passport",
+        "surname": "TAYLOR",
+        "documentNumber": "AB1234567",
+        "issuingOffice": "POLICE",
+        "validFrom": "2022-02-01",
+        "forenames": "EMILY ALEXANDRA",
+        "validTo": ""
+      },
+      "confidence_scores": {
+        "country": 0.890625,
+        "documentType": 0.4609375,
+        "surname": 0.90625,
+        "documentNumber": 0.91796875,
+        "issuingOffice": 0.80078125,
+        "validFrom": 0.73828125,
+        "forenames": 0.89453125,
+        "validTo": 0.76953125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.05494508744386952,
+            "left": 0.2935130670202637,
+            "width": 0.20223580272375774,
+            "height": 0.0450133648714997
+          },
+          {
+            "top": 0.05443157772627411,
+            "left": 0.5057019620886555,
+            "width": 0.11665865818026977,
+            "height": 0.04336638179924011
+          },
+          {
+            "top": 0.48227751244657296,
+            "left": 0.6719710873476766,
+            "width": 0.12223293302358673,
+            "height": 0.04673428438845734
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.057127465462834016,
+            "left": 0.014897597979808493,
+            "width": 0.13165545006635793,
+            "height": 0.0438717972430901
+          },
+          {
+            "top": 0.11628966147158032,
+            "left": 0.008097591253820664,
+            "width": 0.15818371703420347,
+            "height": 0.04621848231239992
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.22264205611194177,
+            "left": 0.3165338576022777,
+            "width": 0.11874047396832016,
+            "height": 0.042782179415292054
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.13532051316319518,
+            "left": 0.6976346283445497,
+            "width": 0.15962456403960035,
+            "height": 0.044339303384407724
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.7126628026302897,
+            "left": 0.35812041831082486,
+            "width": 0.12566041385610266,
+            "height": 0.051271032853556386
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.5878502406330948,
+            "left": 0.4503269073978323,
+            "width": 0.06750791685383284,
+            "height": 0.07243052633919445
+          },
+          {
+            "top": 0.6155799961258895,
+            "left": 0.3477005025652303,
+            "width": 0.030394969467338828,
+            "height": 0.04801966397064894
+          },
+          {
+            "top": 0.6136541683618556,
+            "left": 0.3995517984684566,
+            "width": 0.033327091365705,
+            "height": 0.04902016058380276
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.3103434465197134,
+            "left": 0.3237416029788565,
+            "width": 0.09755646928428174,
+            "height": 0.04288931271814056
+          },
+          {
+            "top": 0.30695341617121275,
+            "left": 0.4454973520341884,
+            "width": 0.17458647166176056,
+            "height": 0.044900171920775
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testc0c3eed1ac//588baef1-8e3e-4634-936b-25386b5aa443/0/custom_output/0/result.json",
+        "s3_size": 6213,
+        "s3_last_modified": "2025-08-27T11:37:02+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:46.277827",
+      "source_file": "testc0c3eed1ac",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testc0c3eed1ac//588baef1-8e3e-4634-936b-25386b5aa443/job_metadata.json",
+        "s3_size": 469,
+        "s3_last_modified": "2025-08-27T11:37:02+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:46.405434",
+      "source_file": "testc707c4804d",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "PHILIPPINES",
+        "documentType": "PASAPORTE/ PASSPORT",
+        "surname": "DELA CRUZ SANTOS",
+        "documentNumber": "P0000000A",
+        "issuingOffice": "DEA MANILA",
+        "validFrom": "2016-06-27",
+        "forenames": "MARIA",
+        "validTo": "2021-06-26"
+      },
+      "confidence_scores": {
+        "country": 0.8125,
+        "documentType": 0.69921875,
+        "surname": 0.74609375,
+        "documentNumber": 0.890625,
+        "issuingOffice": 0.828125,
+        "validFrom": 0.75390625,
+        "forenames": 0.86328125,
+        "validTo": 0.80078125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.07160629618342385,
+            "left": 0.7363414611529183,
+            "width": 0.16129431220981105,
+            "height": 0.03763509534243906
+          },
+          {
+            "top": 0.48264563288171297,
+            "left": 0.6170159842259644,
+            "width": 0.13296640174169416,
+            "height": 0.03224946110099408
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.12365909676014507,
+            "left": 0.12660267209777398,
+            "width": 0.1257882211465876,
+            "height": 0.0665212145807517
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.23473387227866063,
+            "left": 0.3445150677474228,
+            "width": 0.14275660364486392,
+            "height": 0.03689439896504451
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.15431005451481217,
+            "left": 0.6952727099784831,
+            "width": 0.16667689085356652,
+            "height": 0.0377581733545653
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.7275230807723431,
+            "left": 0.6160020558217779,
+            "width": 0.1603480701825285,
+            "height": 0.03225488825023559
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.6444885162233602,
+            "left": 0.34589900416208824,
+            "width": 0.03203089755929733,
+            "height": 0.032210117657471726
+          },
+          {
+            "top": 0.6445053363054509,
+            "left": 0.38916839776347106,
+            "width": 0.1246760937357832,
+            "height": 0.03370858277995781
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.3169221838891958,
+            "left": 0.3427874748996631,
+            "width": 0.08629487276981457,
+            "height": 0.03515980839143812
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.7259600129615041,
+            "left": 0.3463708063364828,
+            "width": 0.16599321632434133,
+            "height": 0.034698272269454655
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testc707c4804d//c6f78106-0f7c-4448-855a-329aa6fb03d6/0/custom_output/0/result.json",
+        "s3_size": 5125,
+        "s3_last_modified": "2025-08-27T11:37:54+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:46.465387",
+      "source_file": "testc707c4804d",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testc707c4804d//c6f78106-0f7c-4448-855a-329aa6fb03d6/job_metadata.json",
+        "s3_size": 462,
+        "s3_last_modified": "2025-08-27T11:37:54+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:46.606340",
+      "source_file": "testcad6570b14",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "REPUBLIC OF KOREA",
+        "documentType": "PASSPORT",
+        "surname": "JONGUK",
+        "documentNumber": "GN1237102",
+        "issuingOffice": "",
+        "validFrom": "1983-03-21",
+        "forenames": "JIN, JONGUK",
+        "validTo": "2007-08-18"
+      },
+      "confidence_scores": {
+        "country": 0.84375,
+        "documentType": 0.85546875,
+        "surname": 0.54296875,
+        "documentNumber": 0.71484375,
+        "issuingOffice": 0.72265625,
+        "validFrom": 0.8203125,
+        "forenames": 0.408203125,
+        "validTo": 0.73828125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.02692527951468027,
+            "left": 0.4266565600593508,
+            "width": 0.15947501182176937,
+            "height": 0.0412563724363189
+          },
+          {
+            "top": 0.030331966822400545,
+            "left": 0.6012034021719436,
+            "width": 0.04424708553447121,
+            "height": 0.03901627898898622
+          },
+          {
+            "top": 0.03166586869648586,
+            "left": 0.6590635962277626,
+            "width": 0.11280781211339963,
+            "height": 0.039223195769880655
+          },
+          {
+            "top": 0.35485506573794356,
+            "left": 0.3374367394528119,
+            "width": 0.11255771562823463,
+            "height": 0.03346301906303639
+          },
+          {
+            "top": 0.35780971512071597,
+            "left": 0.4922955082032147,
+            "width": 0.08071453441625548,
+            "height": 0.02955248071342964
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.10816123285893389,
+            "left": 0.15597675741253092,
+            "width": 0.12895679024662854,
+            "height": 0.0356545574270829
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.28785684704780584,
+            "left": 0.33715136642168175,
+            "width": 0.11211989527040533,
+            "height": 0.035437995334756334
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.14325730145406518,
+            "left": 0.6809476988587541,
+            "width": 0.17699684354736445,
+            "height": 0.04115773762843733
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.43443828517014266,
+            "left": 0.33889422939902947,
+            "width": 0.03014534123456164,
+            "height": 0.031497340312971134
+          },
+          {
+            "top": 0.43371321367159443,
+            "left": 0.380708333013891,
+            "width": 0.13541345870925764,
+            "height": 0.03688728394107604
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.2151009937407378,
+            "left": 0.33670947175710914,
+            "width": 0.044244081337497354,
+            "height": 0.0347918814684032
+          },
+          {
+            "top": 0.2879677041240884,
+            "left": 0.33719458871470637,
+            "width": 0.11207043027505825,
+            "height": 0.03541410384860505
+          },
+          {
+            "top": 0.8333356689319706,
+            "left": 0.24614020192897026,
+            "width": 0.12192290174260281,
+            "height": 0.03323342149644615
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6526909949170101,
+            "left": 0.34059279877237936,
+            "width": 0.17358648634953677,
+            "height": 0.03665786309154717
+          },
+          {
+            "top": 0.5789695195363718,
+            "left": 0.3782759979462047,
+            "width": 0.13736121211409047,
+            "height": 0.037624610904391176
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testcad6570b14//5d7856e5-a36c-4e04-a323-6020e5f1afbc/0/custom_output/0/result.json",
+        "s3_size": 6961,
+        "s3_last_modified": "2025-08-27T11:37:36+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:46.666043",
+      "source_file": "testcad6570b14",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testcad6570b14//5d7856e5-a36c-4e04-a323-6020e5f1afbc/job_metadata.json",
+        "s3_size": 469,
+        "s3_last_modified": "2025-08-27T11:37:36+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:46.803660",
+      "source_file": "testd3695de5ac",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "XCT",
+        "documentType": "P",
+        "documentNumber": "C00067934",
+        "surname": "ÖRNEKTIR",
+        "issuingOffice": "MUHACERET D.",
+        "validFrom": "2020-01-31",
+        "forenames": "NEHIR",
+        "validTo": "2025-01-31"
+      },
+      "confidence_scores": {
+        "country": 0.79296875,
+        "documentType": 0.8125,
+        "documentNumber": 0.859375,
+        "surname": 0.1435546875,
+        "issuingOffice": 0.77734375,
+        "validFrom": 0.71875,
+        "forenames": 0.9140625,
+        "validTo": 0.69921875
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.32299497199924027,
+            "left": 0.7902984728336836,
+            "width": 0.0655309039064047,
+            "height": 0.029851562859754988
+          },
+          {
+            "top": 0.16333872999485952,
+            "left": 0.5692532198316147,
+            "width": 0.049881955068939,
+            "height": 0.029851565899986554
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.16268751025199893,
+            "left": 0.31713294982910145,
+            "width": 0.016029030084609985,
+            "height": 0.028970018029212896
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.1622399286582967,
+            "left": 0.7907870970190134,
+            "width": 0.13008348716899854,
+            "height": 0.030341643700952964
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.24138952998138322,
+            "left": 0.30835047940203997,
+            "width": 0.1281287325344983,
+            "height": 0.03388957430155551
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.6210155904568122,
+            "left": 0.6587481221272464,
+            "width": 0.18876847554016363,
+            "height": 0.030341393189265098
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.6195457261423252,
+            "left": 0.30712816829896394,
+            "width": 0.21126577595448404,
+            "height": 0.029852258505107088
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.32152282879695315,
+            "left": 0.3078615001294051,
+            "width": 0.07629046871795658,
+            "height": 0.03352203960355693
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.7051846121106958,
+            "left": 0.30688371340040066,
+            "width": 0.21102132476415092,
+            "height": 0.030341436426976287
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testd3695de5ac//1e35230e-9c70-481f-9849-93af90791353/0/custom_output/0/result.json",
+        "s3_size": 4717,
+        "s3_last_modified": "2025-08-27T11:39:24+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:46.882670",
+      "source_file": "testd3695de5ac",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testd3695de5ac//1e35230e-9c70-481f-9849-93af90791353/job_metadata.json",
+        "s3_size": 465,
+        "s3_last_modified": "2025-08-27T11:39:24+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:47.029829",
+      "source_file": "testd41b257dae",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "UNITED STATES OF AMERICA",
+        "documentType": "PASSPORT",
+        "surname": "VAZQUEZ",
+        "documentNumber": "0464129853",
+        "issuingOffice": "",
+        "validFrom": "2001-11-20",
+        "forenames": "",
+        "validTo": "2011-11-19"
+      },
+      "confidence_scores": {
+        "country": 0.8125,
+        "documentType": 0.79296875,
+        "surname": 0.89453125,
+        "documentNumber": 0.392578125,
+        "issuingOffice": 0.83984375,
+        "validFrom": 0.703125,
+        "forenames": 0.9375,
+        "validTo": 0.76171875
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.029023852962045234,
+            "left": 0.6497351930350802,
+            "width": 0.3502648069649198,
+            "height": 0.04107792520908786
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.1423690367915442,
+            "left": 0.0730280419779067,
+            "width": 0.25160238511327143,
+            "height": 0.07121659999425908
+          },
+          {
+            "top": 0.012451445713183688,
+            "left": 0.45076273878647405,
+            "width": 0.08995404904927001,
+            "height": 0.028541721755142833
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.19928179509728475,
+            "left": 0.6380031786018453,
+            "width": 0.09190676563663203,
+            "height": 0.03034456023369808
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.1242360084517685,
+            "left": 0.9542926644122431,
+            "width": 0.041062849568830884,
+            "height": 0.028201406458831305
+          },
+          {
+            "top": 0.9474246085268643,
+            "left": 0.39185639282443163,
+            "width": 0.1640200621372866,
+            "height": 0.0376873830979374
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.6033877998965991,
+            "left": 0.6389828649854222,
+            "width": 0.10559486780407412,
+            "height": 0.029852218085957838
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6856032339347987,
+            "left": 0.6404498674223826,
+            "width": 0.10363940319864251,
+            "height": 0.029363341796089903
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testd41b257dae//d182cd13-aea7-452a-8e62-00a2ce7c6d20/0/custom_output/0/result.json",
+        "s3_size": 4293,
+        "s3_last_modified": "2025-08-27T11:38:15+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:47.105411",
+      "source_file": "testd41b257dae",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testd41b257dae//d182cd13-aea7-452a-8e62-00a2ce7c6d20/job_metadata.json",
+        "s3_size": 471,
+        "s3_last_modified": "2025-08-27T11:38:15+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:47.252572",
+      "source_file": "testda30051685",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "INDONESIA",
+        "documentType": "PASSPORT",
+        "surname": "CHEN",
+        "documentNumber": "BCN_19040707103048089 1A1JE5374AFTZ",
+        "issuingOffice": "",
+        "validFrom": "2013-06-22",
+        "forenames": "LIEN CHEN",
+        "validTo": "2023-06-22"
+      },
+      "confidence_scores": {
+        "country": 0.88671875,
+        "documentType": 0.52734375,
+        "surname": 0.8046875,
+        "documentNumber": 0.69140625,
+        "issuingOffice": 0.91015625,
+        "validFrom": 0.8203125,
+        "forenames": 0.80078125,
+        "validTo": 0.89453125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.39826546838924637,
+            "left": 0.32514264607199234,
+            "width": 0.162163051564501,
+            "height": 0.03995077271609465
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.1722641437213742,
+            "left": 0.12405118085521293,
+            "width": 0.108193198817964,
+            "height": 0.031483710272265014
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.28711129677689934,
+            "left": 0.39670025476698306,
+            "width": 0.08473681296901636,
+            "height": 0.03916125544456567
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.7220315143849191,
+            "left": 0.03944101185840321,
+            "width": 0.2714659069823116,
+            "height": 0.032824503075202016
+          },
+          {
+            "top": 0.7209962157908426,
+            "left": 0.3255543081730819,
+            "width": 0.22386470823563048,
+            "height": 0.03967879755640491
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.5957758045036011,
+            "left": 0.32411873268613345,
+            "width": 0.17028627006749975,
+            "height": 0.03919509205527294
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.28637853360061166,
+            "left": 0.32492517858925074,
+            "width": 0.15651190168142193,
+            "height": 0.04020402888759861
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.5960562585109009,
+            "left": 0.7841210482513811,
+            "width": 0.17082428210107803,
+            "height": 0.039226130363412604
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testda30051685//bc6de6ae-bb21-4f00-93e9-291a06bef8ef/0/custom_output/0/result.json",
+        "s3_size": 4377,
+        "s3_last_modified": "2025-08-27T11:31:14+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:47.325239",
+      "source_file": "testda30051685",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testda30051685//bc6de6ae-bb21-4f00-93e9-291a06bef8ef/job_metadata.json",
+        "s3_size": 480,
+        "s3_last_modified": "2025-08-27T11:31:14+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:47.459938",
+      "source_file": "teste0b97b2189",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "",
+        "documentType": "P",
+        "surname": "ORNEK",
+        "documentNumber": "U12345678",
+        "issuingOffice": "ANKARA",
+        "validFrom": "2022-05-18",
+        "forenames": "MEHMET",
+        "validTo": "2032-05-18"
+      },
+      "confidence_scores": {
+        "country": 0.58984375,
+        "documentType": 0.9140625,
+        "surname": 0.94140625,
+        "documentNumber": 0.8984375,
+        "issuingOffice": 0.91796875,
+        "validFrom": 0.7265625,
+        "forenames": 0.92578125,
+        "validTo": 0.75
+      },
+      "bounding_boxes": {
+        "documentType": [
+          {
+            "top": 0.08440096537503167,
+            "left": 0.301652668536204,
+            "width": 0.011968859674925003,
+            "height": 0.02314925842097869
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.14096023550813858,
+            "left": 0.3021415838489532,
+            "width": 0.07059094727242571,
+            "height": 0.022967244774348167
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.08892582124253706,
+            "left": 0.5227065320182919,
+            "width": 0.10356512669440376,
+            "height": 0.02302905779465421
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.641073495406924,
+            "left": 0.30238935109907794,
+            "width": 0.08329200885499732,
+            "height": 0.022966665477187398
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.511098230870118,
+            "left": 0.30214418108602126,
+            "width": 0.16707235654178948,
+            "height": 0.023456833510087427
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.19385469012689893,
+            "left": 0.30189769602985217,
+            "width": 0.08646770646689778,
+            "height": 0.023089650685887503
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.5760858997144721,
+            "left": 0.3021446371007634,
+            "width": 0.1668280012700657,
+            "height": 0.023456634551449862
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/teste0b97b2189//9213f97c-d93d-4f59-9de5-2dcb1ff360f4/0/custom_output/0/result.json",
+        "s3_size": 3927,
+        "s3_last_modified": "2025-08-27T11:33:25+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:47.544129",
+      "source_file": "teste0b97b2189",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/teste0b97b2189//9213f97c-d93d-4f59-9de5-2dcb1ff360f4/job_metadata.json",
+        "s3_size": 486,
+        "s3_last_modified": "2025-08-27T11:33:25+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:47.678092",
+      "source_file": "teste38fce4d42",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "Thailand",
+        "documentType": "PASSPORT",
+        "surname": "PEECHAPOL",
+        "documentNumber": "AB1916225",
+        "issuingOffice": "MINISTRY OF FOREIGN AFFAIRS",
+        "validFrom": "2018-07-16",
+        "forenames": "CHAVIVAT",
+        "validTo": "2023-07-15"
+      },
+      "confidence_scores": {
+        "country": 0.86328125,
+        "documentType": 0.82421875,
+        "surname": 0.91796875,
+        "documentNumber": 0.8984375,
+        "issuingOffice": 0.76171875,
+        "validFrom": 0.890625,
+        "forenames": 0.74609375,
+        "validTo": 0.875
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.1128537866255285,
+            "left": 0.18516197731643785,
+            "width": 0.16639459903575093,
+            "height": 0.03308100669943703
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.20410860734251837,
+            "left": 0.2177886602920295,
+            "width": 0.07459855725749484,
+            "height": 0.021356166763796647
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.23950383501201616,
+            "left": 0.3608934413721884,
+            "width": 0.1067389076783814,
+            "height": 0.026430880411922986
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.17312886790591445,
+            "left": 0.63147662953313,
+            "width": 0.16388464430279337,
+            "height": 0.029618877717039055
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.6000718100248166,
+            "left": 0.616377791445291,
+            "width": 0.2778914948357101,
+            "height": 0.03262294445793723
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.5959913705401713,
+            "left": 0.35106574649902467,
+            "width": 0.10361059660266192,
+            "height": 0.02915555755843413
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.30869644560782056,
+            "left": 0.40111594168832343,
+            "width": 0.08560861758420213,
+            "height": 0.02559334010319292
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6746937530272519,
+            "left": 0.3485622136657622,
+            "width": 0.10479764599720032,
+            "height": 0.02976191317047805
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/teste38fce4d42//c3cc2b37-08ce-49c3-9281-7d30ee272c76/0/custom_output/0/result.json",
+        "s3_size": 4389,
+        "s3_last_modified": "2025-08-27T11:34:57+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:47.736597",
+      "source_file": "teste38fce4d42",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/teste38fce4d42//c3cc2b37-08ce-49c3-9281-7d30ee272c76/job_metadata.json",
+        "s3_size": 464,
+        "s3_last_modified": "2025-08-27T11:34:57+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:47.856573",
+      "source_file": "teste66a6e4575",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "PAKISTAN",
+        "documentType": "PASSPORT",
+        "surname": "SHERAZI",
+        "documentNumber": "KN5120391",
+        "issuingOffice": "PAIGSTAN",
+        "validFrom": "2017-04-24",
+        "forenames": "SYED MOHSIN RAZA, SYED BRAHEEM",
+        "validTo": "2022-04-23"
+      },
+      "confidence_scores": {
+        "country": 0.90234375,
+        "documentType": 0.80078125,
+        "surname": 0.85546875,
+        "documentNumber": 0.921875,
+        "issuingOffice": 0.46875,
+        "validFrom": 0.6796875,
+        "forenames": 0.53125,
+        "validTo": 0.79296875
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.12354988066251169,
+            "left": 0.06752851649584003,
+            "width": 0.2048222482572714,
+            "height": 0.05486611211008932
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.20884692786189452,
+            "left": 0.12219062670802798,
+            "width": 0.0945867416634457,
+            "height": 0.03010490967068022
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.1576352790633224,
+            "left": 0.344424749215195,
+            "width": 0.09969924952833387,
+            "height": 0.03518264525858697
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.08429349473915321,
+            "left": 0.666182166050991,
+            "width": 0.13328951876552897,
+            "height": 0.05398887899231278
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.46690931916236883,
+            "left": 0.6739393349088886,
+            "width": 0.11306030794007993,
+            "height": 0.034087224911237
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.46930699659021285,
+            "left": 0.3463624465011897,
+            "width": 0.13959954501437355,
+            "height": 0.033930255833701184
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.4159876704184239,
+            "left": 0.4562009274959565,
+            "width": 0.223430069840244,
+            "height": 0.03569415211995214
+          },
+          {
+            "top": 0.21002867817769133,
+            "left": 0.4109544749179269,
+            "width": 0.11889130453023122,
+            "height": 0.03491345677006477
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.5191165362359595,
+            "left": 0.347093901344132,
+            "width": 0.13862026683216905,
+            "height": 0.035429875231067554
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/teste66a6e4575//3ab2e066-c5a6-4baa-bb60-be8a04cee8c8/0/custom_output/0/result.json",
+        "s3_size": 4762,
+        "s3_last_modified": "2025-08-27T11:32:46+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:47.954557",
+      "source_file": "teste66a6e4575",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/teste66a6e4575//3ab2e066-c5a6-4baa-bb60-be8a04cee8c8/job_metadata.json",
+        "s3_size": 471,
+        "s3_last_modified": "2025-08-27T11:32:46+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:48.099529",
+      "source_file": "testf3de1f051b",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "U.S.",
+        "documentType": "",
+        "surname": "RIKILA",
+        "documentNumber": "0003000A",
+        "issuingOffice": "STARAMILE",
+        "validFrom": "",
+        "forenames": "RIKILA",
+        "validTo": ""
+      },
+      "confidence_scores": {
+        "country": 0.84375,
+        "documentType": 0.69921875,
+        "surname": 0.71484375,
+        "documentNumber": 0.90234375,
+        "issuingOffice": 0.77734375,
+        "validFrom": 0.5546875,
+        "forenames": 0.7734375,
+        "validTo": 0.80078125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.2275741411212402,
+            "left": 0.6745002032409779,
+            "width": 0.03516065453864525,
+            "height": 0.045700151304380876
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.549916062376907,
+            "left": 0.7329793141571778,
+            "width": 0.05219269364704382,
+            "height": 0.0384629904008531
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.15502749716046613,
+            "left": 0.8476147059610409,
+            "width": 0.0827211763585256,
+            "height": 0.04406749723029754
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.7001260333769423,
+            "left": 0.8085186438196934,
+            "width": 0.07987789708217274,
+            "height": 0.04445912189299395
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.549916062376907,
+            "left": 0.7329793141571778,
+            "width": 0.05219269364704382,
+            "height": 0.0384629904008531
+          },
+          {
+            "top": 0.7001260333769423,
+            "left": 0.8085186438196934,
+            "width": 0.07987789708217274,
+            "height": 0.04445912189299395
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.7001260333769423,
+            "left": 0.8085186438196934,
+            "width": 0.07987789708217274,
+            "height": 0.04445912189299395
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testf3de1f051b//670c4142-2df0-4341-851e-31b7836d71ef/0/custom_output/0/result.json",
+        "s3_size": 3860,
+        "s3_last_modified": "2025-08-27T11:35:51+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:48.169895",
+      "source_file": "testf3de1f051b",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testf3de1f051b//670c4142-2df0-4341-851e-31b7836d71ef/job_metadata.json",
+        "s3_size": 470,
+        "s3_last_modified": "2025-08-27T11:35:51+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:48.287375",
+      "source_file": "testf6e0a5231b",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "PAPUA NEW GUINEA",
+        "documentType": "PASSPORT",
+        "surname": "RATAHU",
+        "documentNumber": "E888111",
+        "issuingOffice": "PORT MORESBY",
+        "validFrom": "2019-08-08",
+        "forenames": "KIKI",
+        "validTo": "2024-08-08"
+      },
+      "confidence_scores": {
+        "country": 0.87109375,
+        "documentType": 0.703125,
+        "surname": 0.921875,
+        "documentNumber": 0.75,
+        "issuingOffice": 0.9140625,
+        "validFrom": 0.6484375,
+        "forenames": 0.9453125,
+        "validTo": 0.70703125
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.1157967869105176,
+            "left": 0.10878158053533094,
+            "width": 0.10048750285070121,
+            "height": 0.03855093107123349
+          },
+          {
+            "top": 0.17354845931581542,
+            "left": 0.06417927360337418,
+            "width": 0.18865005415376962,
+            "height": 0.04026923350488135
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.038489306112650154,
+            "left": 0.03819201782735636,
+            "width": 0.25978788342663267,
+            "height": 0.03682097412497261
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.20770523567908558,
+            "left": 0.33994997213823674,
+            "width": 0.11786915754708344,
+            "height": 0.037081784178409655
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.13212265695264508,
+            "left": 0.8209208718500961,
+            "width": 0.12590676444210736,
+            "height": 0.03793749812276331
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.49966288442289536,
+            "left": 0.5481052797700016,
+            "width": 0.03855673507927482,
+            "height": 0.03817689450649758
+          },
+          {
+            "top": 0.4996646069475127,
+            "left": 0.6076478039980268,
+            "width": 0.09907318668377285,
+            "height": 0.03670981866421075
+          },
+          {
+            "top": 0.722846523173015,
+            "left": 0.34018329860895996,
+            "width": 0.0785816590180089,
+            "height": 0.03768811231222413
+          },
+          {
+            "top": 0.7233362007674294,
+            "left": 0.43804325385635146,
+            "width": 0.14178349054939388,
+            "height": 0.03719822318274735
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.4233056945665628,
+            "left": 0.40022286819754405,
+            "width": 0.058812941494029325,
+            "height": 0.037933648500197925
+          },
+          {
+            "top": 0.4228193586960984,
+            "left": 0.48173017812936975,
+            "width": 0.07028098727163251,
+            "height": 0.03940196562274034
+          },
+          {
+            "top": 0.573074067675625,
+            "left": 0.3392102645545623,
+            "width": 0.037582893558378294,
+            "height": 0.03670936576830808
+          },
+          {
+            "top": 0.5716069508994615,
+            "left": 0.39973204857014233,
+            "width": 0.05978944043575746,
+            "height": 0.03866723403235883
+          },
+          {
+            "top": 0.5720983533414046,
+            "left": 0.4961258455140025,
+            "width": 0.07198931085326365,
+            "height": 0.03817754155293818
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.2740239337306877,
+            "left": 0.3401925842439724,
+            "width": 0.075407875419984,
+            "height": 0.039403678630601124
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.5720983533414046,
+            "left": 0.4961258455140025,
+            "width": 0.07198931085326365,
+            "height": 0.03817754155293818
+          },
+          {
+            "top": 0.6484495212932652,
+            "left": 0.33872060209842414,
+            "width": 0.03807109886086091,
+            "height": 0.037198702430188635
+          },
+          {
+            "top": 0.6474713092902601,
+            "left": 0.39997468867817254,
+            "width": 0.05978961454206411,
+            "height": 0.03866692248496861
+          },
+          {
+            "top": 0.6474723970504114,
+            "left": 0.49612473406776225,
+            "width": 0.07101341761066726,
+            "height": 0.03866655465954094
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testf6e0a5231b//d8c595e6-1d60-44cc-bcae-cdfb6709f995/0/custom_output/0/result.json",
+        "s3_size": 8428,
+        "s3_last_modified": "2025-08-27T11:35:14+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:48.362163",
+      "source_file": "testf6e0a5231b",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testf6e0a5231b//d8c595e6-1d60-44cc-bcae-cdfb6709f995/job_metadata.json",
+        "s3_size": 469,
+        "s3_last_modified": "2025-08-27T11:35:14+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:48.484208",
+      "source_file": "testfc81bfe9ab",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "REPUBLIC OF THE PHILIPPINES",
+        "documentType": "UMID",
+        "surname": "SANTOS",
+        "documentNumber": "0028-1215160-9",
+        "issuingOffice": "",
+        "validFrom": "1960/01/28",
+        "forenames": "JOSE",
+        "validTo": ""
+      },
+      "confidence_scores": {
+        "country": 0.92578125,
+        "documentType": 0.40625,
+        "surname": 0.890625,
+        "documentNumber": 0.87890625,
+        "issuingOffice": 0.8671875,
+        "validFrom": 0.8203125,
+        "forenames": 0.69921875,
+        "validTo": 0.83984375
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.0949450523379443,
+            "left": 0.2119526990147181,
+            "width": 0.18244987046461128,
+            "height": 0.047339646061165516
+          },
+          {
+            "top": 0.09525063585923654,
+            "left": 0.40660150645010923,
+            "width": 0.13461090590311248,
+            "height": 0.0471465950200845
+          },
+          {
+            "top": 0.09472705469983056,
+            "left": 0.5522297039238577,
+            "width": 0.23164122318303038,
+            "height": 0.04773321061715061
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.05218399981608802,
+            "left": 0.8283370137214658,
+            "width": 0.02613577746626594,
+            "height": 0.149792226363656
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.4129732806758489,
+            "left": 0.4289321411278889,
+            "width": 0.10560701629944613,
+            "height": 0.04216952643620103
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.2761397734000116,
+            "left": 0.6011312635860704,
+            "width": 0.37045235413598565,
+            "height": 0.049880932205565276
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.7139940236088231,
+            "left": 0.6433274552712802,
+            "width": 0.17742613195368928,
+            "height": 0.04172361493144694
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.5126623541019317,
+            "left": 0.42990955403330916,
+            "width": 0.06871811636572783,
+            "height": 0.040401435472051106
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testfc81bfe9ab//683ae69a-007c-4591-bcad-ba261ef47550/0/custom_output/0/result.json",
+        "s3_size": 4309,
+        "s3_last_modified": "2025-08-27T11:36:09+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:48.563683",
+      "source_file": "testfc81bfe9ab",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testfc81bfe9ab//683ae69a-007c-4591-bcad-ba261ef47550/job_metadata.json",
+        "s3_size": 470,
+        "s3_last_modified": "2025-08-27T11:36:09+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:48.676014",
+      "source_file": "testfd01c42718",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "INDONESIA",
+        "documentType": "PASPOR",
+        "surname": "TAHAR",
+        "documentNumber": "A 0533784",
+        "issuingOffice": "PADANG",
+        "validFrom": "2012-02-28",
+        "forenames": "ARCANDRA",
+        "validTo": "2017-02-28"
+      },
+      "confidence_scores": {
+        "country": 0.90625,
+        "documentType": 0.76171875,
+        "surname": 0.87109375,
+        "documentNumber": 0.54296875,
+        "issuingOffice": 0.58984375,
+        "validFrom": 0.7578125,
+        "forenames": 0.92578125,
+        "validTo": 0.8046875
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.47812827750002895,
+            "left": 0.3142450744735667,
+            "width": 0.15384574393942063,
+            "height": 0.042166297518391516
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.1668155158635697,
+            "left": 0.10972485099691422,
+            "width": 0.1214457830726751,
+            "height": 0.08863436982755249
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.3583490185991339,
+            "left": 0.47284760490641425,
+            "width": 0.0970465851295878,
+            "height": 0.0437809975743384
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.19045694367956467,
+            "left": 0.7990671753168092,
+            "width": 0.18478098946981114,
+            "height": 0.09910590561402927
+          },
+          {
+            "top": 0.23018165944757016,
+            "left": 0.8054697113778603,
+            "width": 0.027183240717174595,
+            "height": 0.05516338842219545
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.5738676059211294,
+            "left": 0.8562992054107775,
+            "width": 0.11415253907886791,
+            "height": 0.04261280171450155
+          }
+        ],
+        "validFrom": [
+          {
+            "top": 0.6973936411053762,
+            "left": 0.31359697977430334,
+            "width": 0.16477242752663784,
+            "height": 0.043192001716660045
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.36147887289929054,
+            "left": 0.3108951306575507,
+            "width": 0.1607743369375415,
+            "height": 0.04143480966099783
+          }
+        ],
+        "validTo": [
+          {
+            "top": 0.6898606033715552,
+            "left": 0.8059128294466128,
+            "width": 0.1578195610839045,
+            "height": 0.04321680259228078
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testfd01c42718//6d9f58cd-f933-4ff8-9ec6-ca84b4916e95/0/custom_output/0/result.json",
+        "s3_size": 4702,
+        "s3_last_modified": "2025-08-27T11:36:26+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:48.762030",
+      "source_file": "testfd01c42718",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testfd01c42718//6d9f58cd-f933-4ff8-9ec6-ca84b4916e95/job_metadata.json",
+        "s3_size": 470,
+        "s3_last_modified": "2025-08-27T11:36:26+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:48.887872",
+      "source_file": "testfd80339764",
+      "blueprint_info": {
+        "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+        "name": "passport",
+        "version": "dev",
+        "confidence": 1
+      },
+      "document_info": {
+        "type": "passport"
+      },
+      "extracted_fields": {
+        "country": "NIGERIA",
+        "documentType": "PASSPORT",
+        "surname": "DEBOYEWA",
+        "documentNumber": "B49913453",
+        "issuingOffice": "IKOYI LAGOS",
+        "validFrom": "",
+        "forenames": "ADEBOYE USMAN",
+        "validTo": ""
+      },
+      "confidence_scores": {
+        "country": 0.80078125,
+        "documentType": 0.59765625,
+        "surname": 0.8984375,
+        "documentNumber": 0.9296875,
+        "issuingOffice": 0.9296875,
+        "validFrom": 0.62890625,
+        "forenames": 0.90234375,
+        "validTo": 0.7109375
+      },
+      "bounding_boxes": {
+        "country": [
+          {
+            "top": 0.06436073070732817,
+            "left": 0.6591392350764284,
+            "width": 0.1510922286063323,
+            "height": 0.0442796638315056
+          },
+          {
+            "top": 0.38214383542354613,
+            "left": 0.330062068129266,
+            "width": 0.12419727176850492,
+            "height": 0.03180270100373134
+          }
+        ],
+        "documentType": [
+          {
+            "top": 0.15426555993501329,
+            "left": 0.1169357026260423,
+            "width": 0.11509022984496425,
+            "height": 0.027154697884316292
+          },
+          {
+            "top": 0.15695649769760645,
+            "left": 0.3295744296735557,
+            "width": 0.016380556913843325,
+            "height": 0.03155813844881858
+          }
+        ],
+        "surname": [
+          {
+            "top": 0.228879633456323,
+            "left": 0.3300629670807793,
+            "width": 0.14546763877480584,
+            "height": 0.03241431607687323
+          }
+        ],
+        "documentNumber": [
+          {
+            "top": 0.15316430452065039,
+            "left": 0.7388402800593453,
+            "width": 0.14473547570170298,
+            "height": 0.03180295496749139
+          }
+        ],
+        "issuingOffice": [
+          {
+            "top": 0.5303930857031123,
+            "left": 0.691894782881454,
+            "width": 0.16282624870797513,
+            "height": 0.03327067601679612
+          }
+        ],
+        "forenames": [
+          {
+            "top": 0.2987231937761359,
+            "left": 0.32859566196520773,
+            "width": 0.22736935241976686,
+            "height": 0.03229205785883471
+          },
+          {
+            "top": 0.8366731171039188,
+            "left": 0.5261328629051018,
+            "width": 0.10268243025373225,
+            "height": 0.030824070068350196
+          }
+        ]
+      },
+      "s3_metadata": {
+        "s3_key": "results/testfd80339764//b38c3cf9-cd82-480d-bc73-6ff626208848/0/custom_output/0/result.json",
+        "s3_size": 4671,
+        "s3_last_modified": "2025-08-27T11:38:33+00:00"
+      }
+    },
+    {
+      "extraction_timestamp": "2025-08-27T17:35:48.953873",
+      "source_file": "testfd80339764",
+      "blueprint_info": {},
+      "document_info": {},
+      "extracted_fields": {},
+      "confidence_scores": {},
+      "bounding_boxes": {},
+      "s3_metadata": {
+        "s3_key": "results/testfd80339764//b38c3cf9-cd82-480d-bc73-6ff626208848/job_metadata.json",
+        "s3_size": 466,
+        "s3_last_modified": "2025-08-27T11:38:34+00:00"
+      }
+    }
+  ]
+}
