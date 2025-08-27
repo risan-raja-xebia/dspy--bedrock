@@ -7,8 +7,10 @@ from pathlib import Path
 # CONFIGURATION
 S3_BUCKET = "test-passport-data"
 S3_RESULTS_PREFIX = "results/"
+S3_IMAGES_PREFIX = "test_passport/"
 REGION_NAME = "us-east-1"
 OUTPUT_JSON_FILE = "s3_results_combined.json"
+OUTPUT_IMAGES_INFO_FILE = "s3_images_info.json"
 
 # Initialize AWS S3 client
 s3_client = boto3.client('s3', region_name=REGION_NAME)
@@ -96,6 +98,80 @@ def extract_source_filename(s3_key):
         print(f"⚠️  Warning: Could not extract source filename from {s3_key}: {str(e)}")
         return "unknown_source"
 
+def list_s3_images():
+    """
+    List all images in the S3 test_passport folder
+    
+    Returns:
+        list: List of S3 objects in the test_passport folder
+    """
+    try:
+        print(f"🔍 Listing images in s3://{S3_BUCKET}/{S3_IMAGES_PREFIX}")
+        
+        response = s3_client.list_objects_v2(
+            Bucket=S3_BUCKET,
+            Prefix=S3_IMAGES_PREFIX
+        )
+        
+        if 'Contents' in response:
+            files = response['Contents']
+            print(f"✅ Found {len(files)} images in test_passport folder")
+            return files
+        else:
+            print("❌ No images found in test_passport folder")
+            return []
+            
+    except Exception as e:
+        print(f"❌ Error listing S3 images: {str(e)}")
+        return []
+
+def extract_image_info(s3_object):
+    """
+    Extract information about an image from S3 object metadata
+    
+    Args:
+        s3_object (dict): S3 object information
+        
+    Returns:
+        dict: Image information including metadata
+    """
+    try:
+        s3_key = s3_object['Key']
+        file_name = Path(s3_key).name
+        file_extension = Path(s3_key).suffix.lower()
+        
+        image_info = {
+            's3_key': s3_key,
+            'file_name': file_name,
+            'file_extension': file_extension,
+            'file_size_bytes': s3_object.get('Size', 0),
+            'file_size_mb': round(s3_object.get('Size', 0) / (1024 * 1024), 2),
+            'last_modified': s3_object.get('LastModified', '').isoformat() if s3_object.get('LastModified') else None,
+            's3_last_modified': s3_object.get('LastModified', '').isoformat() if s3_object.get('LastModified') else None,
+            'etag': s3_object.get('ETag', '').strip('"'),
+            'storage_class': s3_object.get('StorageClass', 'STANDARD')
+        }
+        
+        # Add file type classification
+        if file_extension in ['.jpg', '.jpeg']:
+            image_info['file_type'] = 'JPEG'
+        elif file_extension == '.png':
+            image_info['file_type'] = 'PNG'
+        elif file_extension == '.jfif':
+            image_info['file_type'] = 'JFIF'
+        elif file_extension == '.webp':
+            image_info['file_type'] = 'WEBP'
+        elif file_extension in ['.bmp', '.tiff', '.tif']:
+            image_info['file_type'] = file_extension.upper().strip('.')
+        else:
+            image_info['file_type'] = 'UNKNOWN'
+        
+        return image_info
+        
+    except Exception as e:
+        print(f"❌ Error extracting image info: {str(e)}")
+        return None
+
 def extract_passport_data(json_data, s3_key):
     """
     Extract relevant passport data from the JSON result
@@ -167,14 +243,52 @@ def extract_passport_data(json_data, s3_key):
         print(f"❌ Error extracting passport data: {str(e)}")
         return None
 
+def process_images():
+    """
+    Process all images in the S3 test_passport folder and extract metadata
+    """
+    try:
+        print("\n🖼️  Processing S3 images...")
+        
+        # List all images
+        image_files = list_s3_images()
+        if not image_files:
+            print("❌ No images found. Skipping image processing.")
+            return []
+        
+        # Process each image
+        successful_image_info = 0
+        all_image_info = []
+        
+        for s3_object in image_files:
+            s3_key = s3_object['Key']
+            
+            # Skip non-image files
+            if not any(s3_key.lower().endswith(ext) for ext in ['.jpg', '.jpeg', '.png', '.jfif', '.webp', '.bmp', '.tiff', '.tif']):
+                continue
+            
+            # Extract image information
+            image_info = extract_image_info(s3_object)
+            if image_info:
+                successful_image_info += 1
+                all_image_info.append(image_info)
+        
+        print(f"✅ Successfully processed {successful_image_info} images")
+        return all_image_info
+        
+    except Exception as e:
+        print(f"❌ Error processing images: {str(e)}")
+        return []
+
 def process_all_results():
     """
     Main function to process all results from S3 and combine them
     """
-    print("🚀 Starting S3 results retrieval and processing")
+    print("🚀 Starting S3 results and images retrieval and processing")
     print("=" * 60)
     print(f"☁️  S3 bucket: {S3_BUCKET}")
     print(f"📁 Results folder: {S3_RESULTS_PREFIX}")
+    print(f"🖼️  Images folder: {S3_IMAGES_PREFIX}")
     print(f"🌍 Region: {REGION_NAME}")
     print("=" * 60)
     
@@ -226,6 +340,9 @@ def process_all_results():
         else:
             print(f"❌ Failed to download/parse: {Path(s3_key).name}")
     
+    # Process images
+    all_image_info = process_images()
+    
     # Save combined results to JSON file
     if all_results:
         try:
@@ -242,19 +359,44 @@ def process_all_results():
             with open(OUTPUT_JSON_FILE, 'w', encoding='utf-8') as f:
                 json.dump(combined_data, f, indent=2, ensure_ascii=False, default=str)
             
-            print(f"\n" + "=" * 60)
-            print("📊 PROCESSING SUMMARY")
-            print("=" * 60)
-            print(f"📁 Total S3 files found: {len(s3_files)}")
-            print(f"✅ Successful downloads: {successful_downloads}")
-            print(f"✅ Successful parses: {successful_parses}")
-            print(f"📄 Results saved to: {OUTPUT_JSON_FILE}")
-            print(f"🎉 Successfully processed {len(all_results)} passport extractions!")
+            print(f"✅ Successfully saved combined results to: {OUTPUT_JSON_FILE}")
             
         except Exception as e:
             print(f"❌ Error saving combined results: {str(e)}")
     else:
         print(f"\n❌ No results were successfully processed")
+    
+    # Save images info to JSON file
+    if all_image_info:
+        try:
+            images_data = {
+                'summary': {
+                    'total_images_found': len(all_image_info),
+                    'successful_image_info': len(all_image_info),
+                    'processing_timestamp': datetime.now().isoformat()
+                },
+                'images': all_image_info
+            }
+            
+            with open(OUTPUT_IMAGES_INFO_FILE, 'w', encoding='utf-8') as f:
+                json.dump(images_data, f, indent=2, ensure_ascii=False, default=str)
+            
+            print(f"✅ Successfully saved images info to: {OUTPUT_IMAGES_INFO_FILE}")
+            
+        except Exception as e:
+            print(f"❌ Error saving images info: {str(e)}")
+    
+    # Print final summary
+    print(f"\n" + "=" * 60)
+    print("📊 PROCESSING SUMMARY")
+    print("=" * 60)
+    print(f"📁 Total S3 files found: {len(s3_files)}")
+    print(f"✅ Successful downloads: {successful_downloads}")
+    print(f"✅ Successful parses: {successful_parses}")
+    print(f"🖼️  Total images processed: {len(all_image_info)}")
+    print(f"📄 Results saved to: {OUTPUT_JSON_FILE}")
+    print(f"🖼️  Images info saved to: {OUTPUT_IMAGES_INFO_FILE}")
+    print(f"🎉 Successfully processed {len(all_results)} passport extractions!")
 
 def main():
     """Main entry point"""

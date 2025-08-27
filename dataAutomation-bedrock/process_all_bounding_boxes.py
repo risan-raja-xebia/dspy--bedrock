@@ -41,27 +41,26 @@ def find_source_image(source_file):
         str: Path to the source image or None if not found
     """
     try:
-        # List all files in the source images directory
-        image_files = []
-        for ext in ['*.jpg', '*.jpeg', '*.png', '*.jfif', '*.webp', '*.bmp', '*.tiff']:
-            image_files.extend(Path(SOURCE_IMAGES_DIR).glob(ext))
+        # Use a single representative passport image for all results
+        # This simplifies the logic and avoids mismatched bounding boxes
+        representative_image = "china.jpg"
         
-        # Create a mapping of source_file identifiers to actual image files
-        # Since we have 33 unique source_file identifiers and 31 images, we'll create a rotation mapping
-        # This ensures each result gets a different image for visualization purposes
+        if os.path.exists(os.path.join(SOURCE_IMAGES_DIR, representative_image)):
+            selected_image = os.path.join(SOURCE_IMAGES_DIR, representative_image)
+            print(f"🔗 Using representative image: {representative_image} for {source_file}")
+            return selected_image
+        else:
+            # Fallback to first available image
+            image_files = []
+            for ext in ['*.jpg', '*.jpeg', '*.png', '*.jfif', '*.webp', '*.bmp', '*.tiff']:
+                image_files.extend(Path(SOURCE_IMAGES_DIR).glob(ext))
+            
+            if image_files:
+                selected_image = str(sorted(image_files)[0])
+                print(f"🔗 Using fallback image: {Path(selected_image).name} for {source_file}")
+                return selected_image
         
-        # Sort image files for consistent mapping
-        image_files = sorted(image_files)
-        
-        # Create a hash-based mapping to distribute images across source files
-        import hashlib
-        hash_value = int(hashlib.md5(source_file.encode()).hexdigest(), 16)
-        image_index = hash_value % len(image_files)
-        
-        selected_image = str(image_files[image_index])
-        print(f"🔗 Mapped {source_file} to {Path(selected_image).name}")
-        
-        return selected_image
+        return None
         
     except Exception as e:
         print(f"❌ Error finding source image for {source_file}: {str(e)}")
@@ -215,6 +214,8 @@ def process_all_results():
     print(f"📄 Input JSON: {INPUT_JSON_FILE}")
     print(f"🖼️  Source images: {SOURCE_IMAGES_DIR}")
     print(f"📁 Output directory: {OUTPUT_IMAGES_DIR}")
+    print("=" * 70)
+    print("ℹ️  Using single representative image for all results")
     print("=" * 70)
     
     # Create output directory

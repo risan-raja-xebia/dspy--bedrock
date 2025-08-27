@@ -3,11 +3,11 @@
     "total_files_found": 99,
     "successful_downloads": 66,
     "successful_parses": 66,
-    "processing_timestamp": "2025-08-27T17:35:48.954167"
+    "processing_timestamp": "2025-08-27T22:18:26.797646"
   },
   "results": [
     {
-      "extraction_timestamp": "2025-08-27T17:35:41.985998",
+      "extraction_timestamp": "2025-08-27T22:18:17.654762",
       "source_file": "test1335e4f8ed",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -133,7 +133,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:42.072786",
+      "extraction_timestamp": "2025-08-27T22:18:17.753606",
       "source_file": "test1335e4f8ed",
       "blueprint_info": {},
       "document_info": {},
@@ -147,7 +147,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:42.202276",
+      "extraction_timestamp": "2025-08-27T22:18:17.916528",
       "source_file": "test1cf7235c73",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -261,7 +261,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:42.269304",
+      "extraction_timestamp": "2025-08-27T22:18:18.051738",
       "source_file": "test1cf7235c73",
       "blueprint_info": {},
       "document_info": {},
@@ -275,7 +275,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:42.418132",
+      "extraction_timestamp": "2025-08-27T22:18:18.236928",
       "source_file": "test2072e7fc8b",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -379,7 +379,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:42.496022",
+      "extraction_timestamp": "2025-08-27T22:18:18.332679",
       "source_file": "test2072e7fc8b",
       "blueprint_info": {},
       "document_info": {},
@@ -393,7 +393,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:42.616783",
+      "extraction_timestamp": "2025-08-27T22:18:18.476709",
       "source_file": "test28959d7d32",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -527,7 +527,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:42.685075",
+      "extraction_timestamp": "2025-08-27T22:18:18.588877",
       "source_file": "test28959d7d32",
       "blueprint_info": {},
       "document_info": {},
@@ -541,7 +541,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:42.809885",
+      "extraction_timestamp": "2025-08-27T22:18:18.762358",
       "source_file": "test300bd2b863",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -669,7 +669,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:42.869182",
+      "extraction_timestamp": "2025-08-27T22:18:18.831474",
       "source_file": "test300bd2b863",
       "blueprint_info": {},
       "document_info": {},
@@ -683,7 +683,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:42.991345",
+      "extraction_timestamp": "2025-08-27T22:18:18.965050",
       "source_file": "test374a2b7aa1",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -823,7 +823,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:43.049029",
+      "extraction_timestamp": "2025-08-27T22:18:19.047811",
       "source_file": "test374a2b7aa1",
       "blueprint_info": {},
       "document_info": {},
@@ -837,7 +837,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:43.171299",
+      "extraction_timestamp": "2025-08-27T22:18:19.207032",
       "source_file": "test3b323d591f",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -947,7 +947,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:43.269082",
+      "extraction_timestamp": "2025-08-27T22:18:19.298718",
       "source_file": "test3b323d591f",
       "blueprint_info": {},
       "document_info": {},
@@ -961,7 +961,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:43.426383",
+      "extraction_timestamp": "2025-08-27T22:18:19.427121",
       "source_file": "test458dc901e8",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -1071,7 +1071,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:43.535222",
+      "extraction_timestamp": "2025-08-27T22:18:19.496100",
       "source_file": "test458dc901e8",
       "blueprint_info": {},
       "document_info": {},
@@ -1085,7 +1085,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:43.686943",
+      "extraction_timestamp": "2025-08-27T22:18:19.609633",
       "source_file": "test55d86340da",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -1185,7 +1185,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:43.751689",
+      "extraction_timestamp": "2025-08-27T22:18:19.670971",
       "source_file": "test55d86340da",
       "blueprint_info": {},
       "document_info": {},
@@ -1199,7 +1199,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:43.896358",
+      "extraction_timestamp": "2025-08-27T22:18:19.789803",
       "source_file": "test632c51ec26",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -1345,7 +1345,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:43.966124",
+      "extraction_timestamp": "2025-08-27T22:18:19.854961",
       "source_file": "test632c51ec26",
       "blueprint_info": {},
       "document_info": {},
@@ -1359,7 +1359,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:44.110661",
+      "extraction_timestamp": "2025-08-27T22:18:20.018911",
       "source_file": "test6a2ee96158",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -1469,7 +1469,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:44.176266",
+      "extraction_timestamp": "2025-08-27T22:18:20.092837",
       "source_file": "test6a2ee96158",
       "blueprint_info": {},
       "document_info": {},
@@ -1483,7 +1483,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:44.355013",
+      "extraction_timestamp": "2025-08-27T22:18:20.257330",
       "source_file": "test76ff4af459",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -1593,7 +1593,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:44.465453",
+      "extraction_timestamp": "2025-08-27T22:18:20.326183",
       "source_file": "test76ff4af459",
       "blueprint_info": {},
       "document_info": {},
@@ -1607,7 +1607,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:44.663355",
+      "extraction_timestamp": "2025-08-27T22:18:20.464818",
       "source_file": "test78a6a4d5f7",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -1701,7 +1701,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:44.778483",
+      "extraction_timestamp": "2025-08-27T22:18:20.538345",
       "source_file": "test78a6a4d5f7",
       "blueprint_info": {},
       "document_info": {},
@@ -1715,7 +1715,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:44.960433",
+      "extraction_timestamp": "2025-08-27T22:18:20.695801",
       "source_file": "test7f8fc61f3f",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -1831,7 +1831,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:45.020317",
+      "extraction_timestamp": "2025-08-27T22:18:20.766369",
       "source_file": "test7f8fc61f3f",
       "blueprint_info": {},
       "document_info": {},
@@ -1845,7 +1845,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:45.155945",
+      "extraction_timestamp": "2025-08-27T22:18:20.924370",
       "source_file": "test969614252e",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -1973,7 +1973,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:45.228767",
+      "extraction_timestamp": "2025-08-27T22:18:21.016390",
       "source_file": "test969614252e",
       "blueprint_info": {},
       "document_info": {},
@@ -1987,7 +1987,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:45.397013",
+      "extraction_timestamp": "2025-08-27T22:18:21.177377",
       "source_file": "test99d1258c3e",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -2091,7 +2091,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:45.469036",
+      "extraction_timestamp": "2025-08-27T22:18:21.246972",
       "source_file": "test99d1258c3e",
       "blueprint_info": {},
       "document_info": {},
@@ -2105,7 +2105,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:45.608661",
+      "extraction_timestamp": "2025-08-27T22:18:21.381704",
       "source_file": "test9ad5366242",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -2233,7 +2233,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:45.674098",
+      "extraction_timestamp": "2025-08-27T22:18:21.455794",
       "source_file": "test9ad5366242",
       "blueprint_info": {},
       "document_info": {},
@@ -2247,7 +2247,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:45.792087",
+      "extraction_timestamp": "2025-08-27T22:18:21.598875",
       "source_file": "testa747a86574",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -2387,7 +2387,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:45.859608",
+      "extraction_timestamp": "2025-08-27T22:18:21.694299",
       "source_file": "testa747a86574",
       "blueprint_info": {},
       "document_info": {},
@@ -2401,7 +2401,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:45.984349",
+      "extraction_timestamp": "2025-08-27T22:18:21.811616",
       "source_file": "testb11fff43bb",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -2511,7 +2511,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:46.056753",
+      "extraction_timestamp": "2025-08-27T22:18:21.915451",
       "source_file": "testb11fff43bb",
       "blueprint_info": {},
       "document_info": {},
@@ -2525,7 +2525,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:46.209505",
+      "extraction_timestamp": "2025-08-27T22:18:22.055339",
       "source_file": "testc0c3eed1ac",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -2657,7 +2657,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:46.277827",
+      "extraction_timestamp": "2025-08-27T22:18:22.139519",
       "source_file": "testc0c3eed1ac",
       "blueprint_info": {},
       "document_info": {},
@@ -2671,7 +2671,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:46.405434",
+      "extraction_timestamp": "2025-08-27T22:18:22.290356",
       "source_file": "testc707c4804d",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -2787,7 +2787,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:46.465387",
+      "extraction_timestamp": "2025-08-27T22:18:22.386434",
       "source_file": "testc707c4804d",
       "blueprint_info": {},
       "document_info": {},
@@ -2801,7 +2801,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:46.606340",
+      "extraction_timestamp": "2025-08-27T22:18:22.536503",
       "source_file": "testcad6570b14",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -2945,7 +2945,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:46.666043",
+      "extraction_timestamp": "2025-08-27T22:18:22.615489",
       "source_file": "testcad6570b14",
       "blueprint_info": {},
       "document_info": {},
@@ -2959,7 +2959,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:46.803660",
+      "extraction_timestamp": "2025-08-27T22:18:22.743720",
       "source_file": "testd3695de5ac",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -3069,7 +3069,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:46.882670",
+      "extraction_timestamp": "2025-08-27T22:18:22.816370",
       "source_file": "testd3695de5ac",
       "blueprint_info": {},
       "document_info": {},
@@ -3083,7 +3083,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:47.029829",
+      "extraction_timestamp": "2025-08-27T22:18:22.932396",
       "source_file": "testd41b257dae",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -3183,7 +3183,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:47.105411",
+      "extraction_timestamp": "2025-08-27T22:18:23.011134",
       "source_file": "testd41b257dae",
       "blueprint_info": {},
       "document_info": {},
@@ -3197,7 +3197,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:47.252572",
+      "extraction_timestamp": "2025-08-27T22:18:23.181300",
       "source_file": "testda30051685",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -3299,7 +3299,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:47.325239",
+      "extraction_timestamp": "2025-08-27T22:18:23.274304",
       "source_file": "testda30051685",
       "blueprint_info": {},
       "document_info": {},
@@ -3313,7 +3313,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:47.459938",
+      "extraction_timestamp": "2025-08-27T22:18:23.408747",
       "source_file": "teste0b97b2189",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -3409,7 +3409,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:47.544129",
+      "extraction_timestamp": "2025-08-27T22:18:23.490884",
       "source_file": "teste0b97b2189",
       "blueprint_info": {},
       "document_info": {},
@@ -3423,7 +3423,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:47.678092",
+      "extraction_timestamp": "2025-08-27T22:18:23.641042",
       "source_file": "teste38fce4d42",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -3527,7 +3527,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:47.736597",
+      "extraction_timestamp": "2025-08-27T22:18:23.757609",
       "source_file": "teste38fce4d42",
       "blueprint_info": {},
       "document_info": {},
@@ -3541,7 +3541,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:47.856573",
+      "extraction_timestamp": "2025-08-27T22:18:23.936209",
       "source_file": "teste66a6e4575",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -3651,7 +3651,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:47.954557",
+      "extraction_timestamp": "2025-08-27T22:18:24.028330",
       "source_file": "teste66a6e4575",
       "blueprint_info": {},
       "document_info": {},
@@ -3665,7 +3665,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:48.099529",
+      "extraction_timestamp": "2025-08-27T22:18:24.201286",
       "source_file": "testf3de1f051b",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -3759,7 +3759,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:48.169895",
+      "extraction_timestamp": "2025-08-27T22:18:24.277663",
       "source_file": "testf3de1f051b",
       "blueprint_info": {},
       "document_info": {},
@@ -3773,7 +3773,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:48.287375",
+      "extraction_timestamp": "2025-08-27T22:18:24.440196",
       "source_file": "testf6e0a5231b",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -3943,7 +3943,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:48.362163",
+      "extraction_timestamp": "2025-08-27T22:18:24.557087",
       "source_file": "testf6e0a5231b",
       "blueprint_info": {},
       "document_info": {},
@@ -3957,7 +3957,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:48.484208",
+      "extraction_timestamp": "2025-08-27T22:18:24.704215",
       "source_file": "testfc81bfe9ab",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -4057,7 +4057,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:48.563683",
+      "extraction_timestamp": "2025-08-27T22:18:24.771805",
       "source_file": "testfc81bfe9ab",
       "blueprint_info": {},
       "document_info": {},
@@ -4071,7 +4071,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:48.676014",
+      "extraction_timestamp": "2025-08-27T22:18:24.932605",
       "source_file": "testfd01c42718",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -4181,7 +4181,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:48.762030",
+      "extraction_timestamp": "2025-08-27T22:18:25.119331",
       "source_file": "testfd01c42718",
       "blueprint_info": {},
       "document_info": {},
@@ -4195,7 +4195,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:48.887872",
+      "extraction_timestamp": "2025-08-27T22:18:25.272109",
       "source_file": "testfd80339764",
       "blueprint_info": {
         "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
@@ -4301,7 +4301,7 @@
       }
     },
     {
-      "extraction_timestamp": "2025-08-27T17:35:48.953873",
+      "extraction_timestamp": "2025-08-27T22:18:25.357676",
       "source_file": "testfd80339764",
       "blueprint_info": {},
       "document_info": {},
