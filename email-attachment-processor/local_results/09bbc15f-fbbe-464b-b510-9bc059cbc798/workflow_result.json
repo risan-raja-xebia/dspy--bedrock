@@ -1,0 +1,73 @@
+{
+  "workflow_id": "09bbc15f-fbbe-464b-b510-9bc059cbc798",
+  "workflow_timestamp": "2025-09-04T15:26:43.887735",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "8445a403-2f09-4d48-9a2c-f5c295bf709d",
+    "s3_key": "test_passport/images (3).jpg",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 14002,
+    "format": ".jpg",
+    "upload_timestamp": "2025-09-04T15:26:19.396071"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "tokena4d3ac8d592145f7b925",
+      "processing_timestamp": "2025-09-04T15:26:38.125286",
+      "extraction_status": "success",
+      "country": "AUSTRALIA",
+      "documentType": "PASSPORT",
+      "surname": "",
+      "documentNumber": "PE0914751",
+      "issuingOffice": "CANBERRA",
+      "validFrom": "2014-03-01",
+      "forenames": "JANE",
+      "validTo": "2024-03-01"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "documentNumber": 0.9,
+      "issuingOffice": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "PASSPORT",
+      "country_code": "AUSTRALIA",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:26:38.125286",
+      "source_filename": "tokena4d3ac8d592145f7b925",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 87.5,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\09bbc15f-fbbe-464b-b510-9bc059cbc798\\images (3)_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:26:43.887786"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "workflow_id": "4d18847a-eb75-4976-b27d-c4f0a8c65e0b",
+  "workflow_timestamp": "2025-09-04T15:16:38.444436",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "14597f63-0ad4-4485-98c3-c3eba82a6956",
+    "s3_key": "test_passport/2517D61900000578-2929980-A_prototype_of_the_new_Irish_Passport_Card_issued_by_Ireland_s_D-a-22_1422461631989.jpg",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 160570,
+    "format": ".jpg",
+    "upload_timestamp": "2025-09-04T15:16:06.765522"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "token634ac7dd11da4456abdf",
+      "processing_timestamp": "2025-09-04T15:16:31.736064",
+      "extraction_status": "success",
+      "country": "IRL",
+      "documentType": "IP",
+      "surname": "O'SULLIVAN",
+      "documentNumber": "D23145890",
+      "issuingOffice": "Oifig na bPasanna, Baile Atha Cliath",
+      "validFrom": "2013-09-10",
+      "forenames": "LAUREN",
+      "validTo": "2023-09-09"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "surname": 0.9,
+      "documentNumber": 0.9,
+      "issuingOffice": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "IP",
+      "country_code": "IRL",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:16:31.736064",
+      "source_filename": "token634ac7dd11da4456abdf",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 100.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\4d18847a-eb75-4976-b27d-c4f0a8c65e0b\\2517D61900000578-2929980-A_prototype_of_the_new_Irish_Passport_Card_issued_by_Ireland_s_D-a-22_1422461631989_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:16:38.444487"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

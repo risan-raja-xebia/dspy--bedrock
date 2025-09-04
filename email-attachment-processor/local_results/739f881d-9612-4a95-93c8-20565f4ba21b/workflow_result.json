@@ -1,0 +1,74 @@
+{
+  "workflow_id": "739f881d-9612-4a95-93c8-20565f4ba21b",
+  "workflow_timestamp": "2025-09-04T15:21:15.711664",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "ed29d363-5c58-4301-bac0-ae9e21bf5846",
+    "s3_key": "test_passport/ID_passport_indonesia.jpg",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 42993,
+    "format": ".jpg",
+    "upload_timestamp": "2025-09-04T15:20:52.117891"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "token795f0f748e5e4f0092f7",
+      "processing_timestamp": "2025-09-04T15:21:11.265517",
+      "extraction_status": "success",
+      "country": "INDONESIA",
+      "documentType": "PASSPORT",
+      "surname": "CHEN",
+      "documentNumber": "5 225LP1",
+      "issuingOffice": "OFFICE SELATAN JAKARTA",
+      "validFrom": "2013-06-22",
+      "forenames": "LIEN CHEN",
+      "validTo": "2023-06-22"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "surname": 0.9,
+      "documentNumber": 0.9,
+      "issuingOffice": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "PASSPORT",
+      "country_code": "INDONESIA",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:21:11.265517",
+      "source_filename": "token795f0f748e5e4f0092f7",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 100.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\739f881d-9612-4a95-93c8-20565f4ba21b\\ID_passport_indonesia_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:21:15.711700"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

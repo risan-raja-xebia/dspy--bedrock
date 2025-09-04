@@ -1,0 +1,641 @@
+{
+  "pipeline_id": "pipeline_1756980238_1",
+  "pipeline_timestamp": "2025-09-04T15:34:54.916476",
+  "pipeline_version": "1.0.0",
+  "status": "completed",
+  "document_processing": {
+    "document_id": "30c3ec6d-8f79-4976-acdf-f91be80b5b5b",
+    "s3_key": "test_passport/Dutch Medical - Indonesian Issued.pdf",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 1661888,
+    "format": ".pdf",
+    "upload_timestamp": "2025-09-04T15:33:58.135682"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "tokendba66cb686a14721b741",
+      "processing_timestamp": "2025-09-04T15:34:54.052843",
+      "extraction_status": "success",
+      "country": "INDONESIA",
+      "processed": "true",
+      "notes": "FIT FOR SEA SERVICE, with no restrictions",
+      "clientId": "ALPHA MAGSAYSAY INTERNATIONAL",
+      "documentType": "Maritime Medical Certificate",
+      "medicalCertificate": "2022082200005",
+      "surname": "KURNIAWAN",
+      "dateProcessed": "2022-08-22",
+      "validFrom": "2022-08-22",
+      "forenames": "ABDUL, RACHIM",
+      "staffId": "H 048705",
+      "validTo": "2024-08-24"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "processed": 0.9,
+      "notes": 0.9,
+      "clientId": 0.9,
+      "documentType": 0.9,
+      "medicalCertificate": 0.9,
+      "surname": 0.9,
+      "dateProcessed": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "staffId": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "Maritime Medical Certificate",
+      "country_code": "INDONESIA",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:34:54.052843",
+      "source_filename": "tokendba66cb686a14721b741",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {},
+    "raw_response": {
+      "job_id": "10efac38-34de-422e-900d-7e3ea941959d",
+      "job_status": "PROCESSED",
+      "semantic_modality": "DOCUMENT",
+      "output_metadata": [
+        {
+          "asset_id": 0,
+          "asset_input_path": {
+            "s3_bucket": "test-passport-data",
+            "s3_key": "test_passport/Dutch Medical - Indonesian Issued.pdf"
+          },
+          "segment_metadata": [
+            {
+              "custom_output_path": "s3://test-passport-data/results/tokendba66cb686a14721b741//10efac38-34de-422e-900d-7e3ea941959d/0/custom_output/0/result.json",
+              "custom_output_status": "MATCH"
+            }
+          ]
+        }
+      ],
+      "custom_output": {
+        "matched_blueprint": {
+          "arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/8794f71ed722",
+          "version": "dev",
+          "name": "Medical-Certificate",
+          "confidence": 1
+        },
+        "document_class": {
+          "type": "default"
+        },
+        "split_document": {
+          "page_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "inference_result": {
+          "country": "INDONESIA",
+          "processed": "true",
+          "notes": "FIT FOR SEA SERVICE, with no restrictions",
+          "clientId": "ALPHA MAGSAYSAY INTERNATIONAL",
+          "documentType": "Maritime Medical Certificate",
+          "medicalCertificate": "2022082200005",
+          "surname": "KURNIAWAN",
+          "dateProcessed": "2022-08-22",
+          "validFrom": "2022-08-22",
+          "forenames": "ABDUL, RACHIM",
+          "staffId": "H 048705",
+          "validTo": "2024-08-24"
+        },
+        "explainability_info": [
+          {
+            "country": {
+              "success": true,
+              "confidence": 0.7265625,
+              "geometry": [
+                {
+                  "boundingBox": {
+                    "top": 0.309487074613309,
+                    "left": 0.7556516528129575,
+                    "width": 0.0915281772613904,
+                    "height": 0.010183517206889259
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.7556517396545146,
+                      "y": 0.309487074613309
+                    },
+                    {
+                      "x": 0.8471798300743479,
+                      "y": 0.3094878156608933
+                    },
+                    {
+                      "x": 0.8471797340832506,
+                      "y": 0.31967059182019825
+                    },
+                    {
+                      "x": 0.7556516528129575,
+                      "y": 0.3196698427200317
+                    }
+                  ],
+                  "page": 1
+                }
+              ],
+              "type": "string",
+              "value": "INDONESIA"
+            },
+            "processed": {
+              "success": true,
+              "confidence": 0.62890625,
+              "geometry": [
+                {
+                  "boundingBox": {
+                    "top": 0.47473061084747314,
+                    "left": 0.5713498360525188,
+                    "width": 0.030280732451833936,
+                    "height": 0.009034633636966272
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.5713499784469606,
+                      "y": 0.47473061084747314
+                    },
+                    {
+                      "x": 0.6016305685043527,
+                      "y": 0.47473096721592645
+                    },
+                    {
+                      "x": 0.6016304317710661,
+                      "y": 0.4837652444844394
+                    },
+                    {
+                      "x": 0.5713498360525188,
+                      "y": 0.4837648906559519
+                    }
+                  ],
+                  "page": 5
+                }
+              ],
+              "type": "string",
+              "value": "true"
+            },
+            "notes": {
+              "success": true,
+              "confidence": 0.10498046875,
+              "geometry": [
+                {
+                  "boundingBox": {
+                    "top": 0.7737650871276857,
+                    "left": 0.4142880141735077,
+                    "width": 0.015764236450195312,
+                    "height": 0.009449243545532116
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.41428803686613047,
+                      "y": 0.7737651095656973
+                    },
+                    {
+                      "x": 0.430052250623703,
+                      "y": 0.7737650871276857
+                    },
+                    {
+                      "x": 0.4300522281412692,
+                      "y": 0.7832143087140091
+                    },
+                    {
+                      "x": 0.4142880141735077,
+                      "y": 0.7832143306732178
+                    }
+                  ],
+                  "page": 7
+                },
+                {
+                  "boundingBox": {
+                    "top": 0.7133653603332962,
+                    "left": 0.35061815846799677,
+                    "width": 0.08338304997485418,
+                    "height": 0.010092883119433238
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.3506181836128236,
+                      "y": 0.7133654952049256
+                    },
+                    {
+                      "x": 0.43400120844285095,
+                      "y": 0.7133653603332962
+                    },
+                    {
+                      "x": 0.4340011844855112,
+                      "y": 0.7234581112861526
+                    },
+                    {
+                      "x": 0.35061815846799677,
+                      "y": 0.7234582434527295
+                    }
+                  ],
+                  "page": 7
+                },
+                {
+                  "boundingBox": {
+                    "top": 0.7140213847159987,
+                    "left": 0.458076149225235,
+                    "width": 0.027555368341876163,
+                    "height": 0.0094977617264147
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.45807617144748464,
+                      "y": 0.7140214292285221
+                    },
+                    {
+                      "x": 0.48563151756711115,
+                      "y": 0.7140213847159987
+                    },
+                    {
+                      "x": 0.48563149571415115,
+                      "y": 0.723519102771118
+                    },
+                    {
+                      "x": 0.458076149225235,
+                      "y": 0.7235191464424134
+                    }
+                  ],
+                  "page": 7
+                },
+                {
+                  "boundingBox": {
+                    "top": 0.6369391567530961,
+                    "left": 0.4787904693824346,
+                    "width": 0.13034273513074174,
+                    "height": 0.009711037968265002
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.4787904918193976,
+                      "y": 0.6369393996013946
+                    },
+                    {
+                      "x": 0.6091332045131763,
+                      "y": 0.6369391567530961
+                    },
+                    {
+                      "x": 0.6091331838622225,
+                      "y": 0.6466499559415217
+                    },
+                    {
+                      "x": 0.4787904693824346,
+                      "y": 0.6466501947213611
+                    }
+                  ],
+                  "page": 7
+                }
+              ],
+              "type": "string",
+              "value": "FIT FOR SEA SERVICE, with no restrictions"
+            },
+            "clientId": {
+              "success": true,
+              "confidence": 0.1259765625,
+              "geometry": [
+                {
+                  "boundingBox": {
+                    "top": 0.27905581677716607,
+                    "left": 0.35576811324641017,
+                    "width": 0.2622314415436266,
+                    "height": 0.009829572307529288
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.35576819795118597,
+                      "y": 0.27905581677716607
+                    },
+                    {
+                      "x": 0.6179995547900368,
+                      "y": 0.2790586948394897
+                    },
+                    {
+                      "x": 0.617999434471078,
+                      "y": 0.28888538908469535
+                    },
+                    {
+                      "x": 0.35576811324641017,
+                      "y": 0.2888825778748458
+                    }
+                  ],
+                  "page": 3
+                }
+              ],
+              "type": "string",
+              "value": "ALPHA MAGSAYSAY INTERNATIONAL"
+            },
+            "documentType": {
+              "success": true,
+              "confidence": 0.76171875,
+              "geometry": [
+                {
+                  "boundingBox": {
+                    "top": 0.29316919388642865,
+                    "left": 0.412923748518486,
+                    "width": 0.06765721756767334,
+                    "height": 0.00998498249325902
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.412923748518486,
+                      "y": 0.29316919388642865
+                    },
+                    {
+                      "x": 0.48058027029037487,
+                      "y": 0.2931704223155975
+                    },
+                    {
+                      "x": 0.48058096608615936,
+                      "y": 0.30315417637968767
+                    },
+                    {
+                      "x": 0.4129243791103363,
+                      "y": 0.3031529486179352
+                    }
+                  ],
+                  "page": 2
+                },
+                {
+                  "boundingBox": {
+                    "top": 0.26082882285118103,
+                    "left": 0.2632846832275391,
+                    "width": 0.13359746502808323,
+                    "height": 0.012178638572570677
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.2632846832275391,
+                      "y": 0.26082882285118103
+                    },
+                    {
+                      "x": 0.3968813980381582,
+                      "y": 0.260831252822686
+                    },
+                    {
+                      "x": 0.39688214825562235,
+                      "y": 0.2730074614237517
+                    },
+                    {
+                      "x": 0.26328527641612104,
+                      "y": 0.2730050330595577
+                    }
+                  ],
+                  "page": 2
+                }
+              ],
+              "type": "string",
+              "value": "Maritime Medical Certificate"
+            },
+            "medicalCertificate": {
+              "success": true,
+              "confidence": 0.765625,
+              "geometry": [
+                {
+                  "boundingBox": {
+                    "top": 0.3279744815117386,
+                    "left": 0.3919616896962043,
+                    "width": 0.11112110180459916,
+                    "height": 0.009582367620578902
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.3919616896962043,
+                      "y": 0.3279753347865713
+                    },
+                    {
+                      "x": 0.5030827866108009,
+                      "y": 0.3279744815117386
+                    },
+                    {
+                      "x": 0.5030827915008035,
+                      "y": 0.3375559994110016
+                    },
+                    {
+                      "x": 0.39196170185730556,
+                      "y": 0.3375568491323175
+                    }
+                  ],
+                  "page": 8
+                }
+              ],
+              "type": "string",
+              "value": "2022082200005"
+            },
+            "surname": {
+              "success": true,
+              "confidence": 0.6484375,
+              "geometry": [
+                {
+                  "boundingBox": {
+                    "top": 0.24897320961454172,
+                    "left": 0.4118020089562308,
+                    "width": 0.10550973541242709,
+                    "height": 0.011112529866970478
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.41180206621200227,
+                      "y": 0.24897320961454172
+                    },
+                    {
+                      "x": 0.5173117443686579,
+                      "y": 0.24897400869963895
+                    },
+                    {
+                      "x": 0.5173116756035274,
+                      "y": 0.2600857394815122
+                    },
+                    {
+                      "x": 0.4118020089562308,
+                      "y": 0.26008493026686696
+                    }
+                  ],
+                  "page": 1
+                }
+              ],
+              "type": "string",
+              "value": "KURNIAWAN"
+            },
+            "dateProcessed": {
+              "success": true,
+              "confidence": 0.3828125,
+              "type": "string",
+              "value": "2022-08-22"
+            },
+            "validFrom": {
+              "success": true,
+              "confidence": 0.59765625,
+              "type": "string",
+              "value": "2022-08-22"
+            },
+            "forenames": {
+              "success": true,
+              "confidence": 0.828125,
+              "geometry": [
+                {
+                  "boundingBox": {
+                    "top": 0.24896554648876187,
+                    "left": 0.5211642256583491,
+                    "width": 0.1313837456183533,
+                    "height": 0.011628905853649368
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.5211642980575559,
+                      "y": 0.24896554648876187
+                    },
+                    {
+                      "x": 0.6525479712767024,
+                      "y": 0.24896654152277292
+                    },
+                    {
+                      "x": 0.6525478838799347,
+                      "y": 0.26059445234241124
+                    },
+                    {
+                      "x": 0.5211642256583491,
+                      "y": 0.26059344410886487
+                    }
+                  ],
+                  "page": 1
+                }
+              ],
+              "type": "string",
+              "value": "ABDUL, RACHIM"
+            },
+            "staffId": {
+              "success": true,
+              "confidence": 0.35546875,
+              "geometry": [
+                {
+                  "boundingBox": {
+                    "top": 0.4117364585399208,
+                    "left": 0.36571761733756697,
+                    "width": 0.0703827862699204,
+                    "height": 0.010208457708582308
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.36571761733756697,
+                      "y": 0.4117364585399208
+                    },
+                    {
+                      "x": 0.43609973607509783,
+                      "y": 0.41173772819709537
+                    },
+                    {
+                      "x": 0.43610040360748736,
+                      "y": 0.4219449162485031
+                    },
+                    {
+                      "x": 0.3657182155219849,
+                      "y": 0.42194364730117884
+                    }
+                  ],
+                  "page": 2
+                }
+              ],
+              "type": "string",
+              "value": "H 048705"
+            },
+            "validTo": {
+              "success": true,
+              "confidence": 0.65625,
+              "geometry": [
+                {
+                  "boundingBox": {
+                    "top": 0.721169560767811,
+                    "left": 0.39148973108200447,
+                    "width": 0.1375088251458807,
+                    "height": 0.015136732597576863
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.39148973108200447,
+                      "y": 0.721169560767811
+                    },
+                    {
+                      "x": 0.5289974307884138,
+                      "y": 0.7211719992190614
+                    },
+                    {
+                      "x": 0.5289985562278852,
+                      "y": 0.7363062933653879
+                    },
+                    {
+                      "x": 0.39149065563924884,
+                      "y": 0.7363038569705054
+                    }
+                  ],
+                  "page": 2
+                },
+                {
+                  "boundingBox": {
+                    "top": 0.29659437156935137,
+                    "left": 0.5064355643127356,
+                    "width": 0.07759324697736625,
+                    "height": 0.009821664097805383
+                  },
+                  "vertices": [
+                    {
+                      "x": 0.5064355643127356,
+                      "y": 0.2965949755173417
+                    },
+                    {
+                      "x": 0.5840288112901019,
+                      "y": 0.29659437156935137
+                    },
+                    {
+                      "x": 0.5840288108733127,
+                      "y": 0.3064154342625387
+                    },
+                    {
+                      "x": 0.5064355691001189,
+                      "y": 0.30641603566715675
+                    }
+                  ],
+                  "page": 8
+                }
+              ],
+              "type": "string",
+              "value": "2024-08-24"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "quality_metrics": {
+    "validation_passed": true,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 100.0
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/8794f71ed722",
+      "confidence_threshold": 0.7
+    },
+    "pipeline_duration": null
+  },
+  "highlight_results": {
+    "success": true,
+    "result_files": {
+      "highlighted_document": "highlighted_medical_certificates\\pipeline_1756980238_1\\highlighted_original_Dutch Medical - Indonesian Issued.pdf",
+      "original_document": "highlighted_medical_certificates\\pipeline_1756980238_1\\original_Dutch Medical - Indonesian Issued.pdf"
+    },
+    "workflow_id": "unknown",
+    "fields_highlighted": 15,
+    "created_at": "2025-09-04T15:34:56.781456"
+  }
+}

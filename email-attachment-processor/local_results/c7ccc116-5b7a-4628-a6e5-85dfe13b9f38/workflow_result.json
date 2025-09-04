@@ -1,0 +1,74 @@
+{
+  "workflow_id": "c7ccc116-5b7a-4628-a6e5-85dfe13b9f38",
+  "workflow_timestamp": "2025-09-04T15:16:03.871396",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "a565cd4b-7a78-4036-90cc-47c024cb22d4",
+    "s3_key": "test_passport/153547.jpg",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 96836,
+    "format": ".jpg",
+    "upload_timestamp": "2025-09-04T15:15:38.728264"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "token1586d0f9aa7f4dcdbcad",
+      "processing_timestamp": "2025-09-04T15:15:58.590644",
+      "extraction_status": "success",
+      "country": "TUR",
+      "documentType": "PD",
+      "surname": "ORNEK",
+      "documentNumber": "P 00100366",
+      "issuingOffice": "ANKARA",
+      "validFrom": "2010-04-15",
+      "forenames": "ZEYNEP",
+      "validTo": "2015-04-15"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "surname": 0.9,
+      "documentNumber": 0.9,
+      "issuingOffice": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "PD",
+      "country_code": "TUR",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:15:58.590644",
+      "source_filename": "token1586d0f9aa7f4dcdbcad",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 100.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\c7ccc116-5b7a-4628-a6e5-85dfe13b9f38\\153547_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:16:03.871440"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

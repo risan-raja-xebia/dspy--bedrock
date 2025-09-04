@@ -1,0 +1,74 @@
+{
+  "workflow_id": "77e394c2-831a-4a50-836e-2992ca77002c",
+  "workflow_timestamp": "2025-09-04T15:20:10.606669",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "9df69d5b-1750-44d3-a293-3f64cd8d596a",
+    "s3_key": "test_passport/download (5).jpg",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 17099,
+    "format": ".jpg",
+    "upload_timestamp": "2025-09-04T15:19:42.516458"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "tokenea3271819d804e2c96a3",
+      "processing_timestamp": "2025-09-04T15:20:06.553228",
+      "extraction_status": "success",
+      "country": "UZBEKISTAN",
+      "documentType": "PASSPORT",
+      "surname": "UMAROV",
+      "documentNumber": "AA0000000",
+      "issuingOffice": "STATE PERSONAL AUTHORITY",
+      "validFrom": "1987-05-09",
+      "forenames": "ANVAR",
+      "validTo": "2021-11-08"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "surname": 0.9,
+      "documentNumber": 0.9,
+      "issuingOffice": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "PASSPORT",
+      "country_code": "UZBEKISTAN",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:20:06.553228",
+      "source_filename": "tokenea3271819d804e2c96a3",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 100.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\77e394c2-831a-4a50-836e-2992ca77002c\\download (5)_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:20:10.606698"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

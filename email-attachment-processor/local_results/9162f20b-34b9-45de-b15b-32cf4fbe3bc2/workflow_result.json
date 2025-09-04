@@ -1,0 +1,74 @@
+{
+  "workflow_id": "9162f20b-34b9-45de-b15b-32cf4fbe3bc2",
+  "workflow_timestamp": "2025-09-04T15:30:15.230609",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "7de2d5ba-ac6f-4bb9-a1e0-329b6af35dda",
+    "s3_key": "test_passport/polish.png",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 107128,
+    "format": ".png",
+    "upload_timestamp": "2025-09-04T15:29:45.772975"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "token0fde1ca897b841d7a5d5",
+      "processing_timestamp": "2025-09-04T15:30:10.134925",
+      "extraction_status": "success",
+      "country": "POLSKA",
+      "documentType": "PASSPORT",
+      "surname": "KOWALSKA",
+      "documentNumber": "ZS 0000177",
+      "issuingOffice": "MINISTER S WIA",
+      "validFrom": "2006-07-13",
+      "forenames": "ANNA",
+      "validTo": "2016-07-13"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "surname": 0.9,
+      "documentNumber": 0.9,
+      "issuingOffice": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "PASSPORT",
+      "country_code": "POLSKA",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:30:10.134925",
+      "source_filename": "token0fde1ca897b841d7a5d5",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 100.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\9162f20b-34b9-45de-b15b-32cf4fbe3bc2\\polish_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:30:15.230662"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

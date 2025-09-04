@@ -1,0 +1,74 @@
+{
+  "workflow_id": "7ccd3ab3-18bc-4141-b6aa-b182a5e1ea34",
+  "workflow_timestamp": "2025-09-04T15:18:36.055801",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "761d2037-33e4-4099-b39d-2b6d49cbd148",
+    "s3_key": "test_passport/china.jpg",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 146833,
+    "format": ".jpg",
+    "upload_timestamp": "2025-09-04T15:18:08.220374"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "tokend9f3fb20f5b649458a7f",
+      "processing_timestamp": "2025-09-04T15:18:32.017369",
+      "extraction_status": "success",
+      "country": "PEOPLE'S REPUBLIC OF CHINA",
+      "documentType": "PASSPORT",
+      "surname": "YANG",
+      "documentNumber": "SE0000000",
+      "issuingOffice": "MINISTRY OF FOREIGN AFFAIRS",
+      "validFrom": "2010-05-01",
+      "forenames": "ZHAO",
+      "validTo": "2015-05-01"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "surname": 0.9,
+      "documentNumber": 0.9,
+      "issuingOffice": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "PASSPORT",
+      "country_code": "PEOPLE'S REPUBLIC OF CHINA",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:18:32.017369",
+      "source_filename": "tokend9f3fb20f5b649458a7f",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 100.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\7ccd3ab3-18bc-4141-b6aa-b182a5e1ea34\\china_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:18:36.055851"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

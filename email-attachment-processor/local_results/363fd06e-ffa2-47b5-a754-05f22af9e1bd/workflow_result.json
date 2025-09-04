@@ -1,0 +1,74 @@
+{
+  "workflow_id": "363fd06e-ffa2-47b5-a754-05f22af9e1bd",
+  "workflow_timestamp": "2025-09-04T15:23:48.938769",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "94bf6484-e89c-4d43-897e-8b98061abdd6",
+    "s3_key": "test_passport/image.png",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 61708,
+    "format": ".png",
+    "upload_timestamp": "2025-09-04T15:23:21.856520"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "tokend7a3126f9cd443a4ad34",
+      "processing_timestamp": "2025-09-04T15:23:45.287787",
+      "extraction_status": "success",
+      "country": "Thailand",
+      "documentType": "PASSPORT",
+      "surname": "PEECHAPOL",
+      "documentNumber": "AB1916225",
+      "issuingOffice": "MINISTRY OF FOREIGN AFFAIRS",
+      "validFrom": "2018-07-16",
+      "forenames": "CHAVIVAT",
+      "validTo": "2023-07-15"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "surname": 0.9,
+      "documentNumber": 0.9,
+      "issuingOffice": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "PASSPORT",
+      "country_code": "Thailand",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:23:45.287787",
+      "source_filename": "tokend7a3126f9cd443a4ad34",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 100.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\363fd06e-ffa2-47b5-a754-05f22af9e1bd\\image_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:23:48.938835"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "workflow_id": "21221a78-e9a1-44fe-ae9f-76ae1a9a4d63",
+  "workflow_timestamp": "2025-09-04T15:30:40.175996",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "c8882206-213e-4b98-b005-f883c8f5e291",
+    "s3_key": "test_passport/random.webp",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 98807,
+    "format": ".webp",
+    "upload_timestamp": "2025-09-04T15:30:20.438819"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "token38c8cc31395a44cd92b8",
+      "processing_timestamp": "2025-09-04T15:30:40.149440",
+      "extraction_status": "success",
+      "country": null,
+      "documentType": null,
+      "surname": null,
+      "documentNumber": null,
+      "issuingOffice": null,
+      "validFrom": null,
+      "forenames": null,
+      "validTo": null
+    },
+    "confidence_scores": {},
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": null,
+      "country_code": null,
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:30:40.149440",
+      "source_filename": "token38c8cc31395a44cd92b8",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.0,
+    "field_completeness": 0.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": false,
+    "output_files": {},
+    "error": "No geometry data available",
+    "created_at": "2025-09-04T15:30:40.176112"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

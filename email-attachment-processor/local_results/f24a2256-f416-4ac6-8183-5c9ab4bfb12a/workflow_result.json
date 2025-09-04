@@ -1,0 +1,74 @@
+{
+  "workflow_id": "f24a2256-f416-4ac6-8183-5c9ab4bfb12a",
+  "workflow_timestamp": "2025-09-04T15:24:18.291257",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "37c1fb84-7247-4764-bc0b-59de72de548d",
+    "s3_key": "test_passport/images (1).jpg",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 16310,
+    "format": ".jpg",
+    "upload_timestamp": "2025-09-04T15:23:53.233300"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "token1c2f9bea8c9749869be6",
+      "processing_timestamp": "2025-09-04T15:24:11.643402",
+      "extraction_status": "success",
+      "country": "PAPUA NEW GUINEA",
+      "documentType": "PASSPORT",
+      "surname": "RATAHU",
+      "documentNumber": "E888111",
+      "issuingOffice": "PORT MORESBY",
+      "validFrom": "2019-08-08",
+      "forenames": "KIKI",
+      "validTo": "2024-08-08"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "surname": 0.9,
+      "documentNumber": 0.9,
+      "issuingOffice": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "PASSPORT",
+      "country_code": "PAPUA NEW GUINEA",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:24:11.643402",
+      "source_filename": "token1c2f9bea8c9749869be6",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 100.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\f24a2256-f416-4ac6-8183-5c9ab4bfb12a\\images (1)_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:24:18.291304"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

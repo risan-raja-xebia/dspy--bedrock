@@ -1,0 +1,74 @@
+{
+  "workflow_id": "d120b83d-1177-4681-a123-a5e847326877",
+  "workflow_timestamp": "2025-09-04T15:26:16.182201",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "f132b171-39e2-48ab-a17a-51fb9583af7e",
+    "s3_key": "test_passport/images (17).jpg",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 13801,
+    "format": ".jpg",
+    "upload_timestamp": "2025-09-04T15:25:49.431108"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "tokenb1384d8485924c5484bd",
+      "processing_timestamp": "2025-09-04T15:26:08.935997",
+      "extraction_status": "success",
+      "country": "INDONESIA",
+      "documentType": "PASPOR",
+      "surname": "TAHAR",
+      "documentNumber": "A 0533784",
+      "issuingOffice": "PADANG",
+      "validFrom": "2012-02-28",
+      "forenames": "ARCANDRA",
+      "validTo": "2017-02-28"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "surname": 0.9,
+      "documentNumber": 0.9,
+      "issuingOffice": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "PASPOR",
+      "country_code": "INDONESIA",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:26:08.935997",
+      "source_filename": "tokenb1384d8485924c5484bd",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 100.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\d120b83d-1177-4681-a123-a5e847326877\\images (17)_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:26:16.182240"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

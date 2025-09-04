@@ -1,0 +1,72 @@
+{
+  "workflow_id": "eb04dd40-2d54-46bb-8274-c821a92870e6",
+  "workflow_timestamp": "2025-09-04T15:29:09.255237",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "4fa36c96-62f3-43bb-b51d-47ce1c97a6fb",
+    "s3_key": "test_passport/master_photo.jpg",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 159478,
+    "format": ".jpg",
+    "upload_timestamp": "2025-09-04T15:28:40.141959"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "tokenb0ac970d0a9e44a6a51d",
+      "processing_timestamp": "2025-09-04T15:29:03.833638",
+      "extraction_status": "success",
+      "country": "UNITED STATES OF AMERICA",
+      "documentType": "PASSPORT",
+      "surname": "VAZQUEZ",
+      "documentNumber": "0464129853 A8206185M1111190",
+      "issuingOffice": "",
+      "validFrom": "2001-11-20",
+      "forenames": "",
+      "validTo": "2011-11-19"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "surname": 0.9,
+      "documentNumber": 0.9,
+      "validFrom": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "PASSPORT",
+      "country_code": "UNITED STATES OF AMERICA",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:29:03.833638",
+      "source_filename": "tokenb0ac970d0a9e44a6a51d",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 75.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\eb04dd40-2d54-46bb-8274-c821a92870e6\\master_photo_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:29:09.255284"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "workflow_id": "17996ab4-3731-43b6-bbb8-903ada03298c",
+  "workflow_timestamp": "2025-09-04T15:17:38.363998",
+  "workflow_version": "1.0.0",
+  "status": "completed_with_warnings",
+  "document_processing": {
+    "document_id": "80709edf-849c-44ef-a48d-4242e3ee97ad",
+    "s3_key": "test_passport/a_matt_passport.jpg",
+    "s3_bucket": "test-passport-data",
+    "size_bytes": 66995,
+    "format": ".jpg",
+    "upload_timestamp": "2025-09-04T15:17:10.130690"
+  },
+  "extraction_results": {
+    "extracted_fields": {
+      "file_key": "tokend20bc3064a6c4d619e31",
+      "processing_timestamp": "2025-09-04T15:17:34.757606",
+      "extraction_status": "success",
+      "country": "PHL",
+      "documentType": "P",
+      "surname": "DOE",
+      "documentNumber": "P5434301A",
+      "issuingOffice": "DFA MANILA",
+      "validFrom": "2021-06-27",
+      "forenames": "JOHN TEMPLATES",
+      "validTo": "2026-06-26"
+    },
+    "confidence_scores": {
+      "country": 0.9,
+      "documentType": 0.9,
+      "surname": 0.9,
+      "documentNumber": 0.9,
+      "issuingOffice": 0.9,
+      "validFrom": 0.9,
+      "forenames": 0.9,
+      "validTo": 0.9
+    },
+    "bounding_boxes": {},
+    "document_info": {
+      "document_type": "P",
+      "country_code": "PHL",
+      "extraction_confidence": 0.9,
+      "processing_timestamp": "2025-09-04T15:17:34.757606",
+      "source_filename": "tokend20bc3064a6c4d619e31",
+      "parsing_method": "bedrock_data_automation"
+    },
+    "extraction_metadata": {}
+  },
+  "quality_metrics": {
+    "validation_passed": false,
+    "confidence_threshold": 0.7,
+    "overall_confidence": 0.9,
+    "field_completeness": 100.0,
+    "bounding_box_count": 0
+  },
+  "bounding_box_visualization": {
+    "success": true,
+    "output_files": {
+      "bounding_box_image": "annotated_passports\\17996ab4-3731-43b6-bbb8-903ada03298c\\a_matt_passport_with_bboxes.jpg"
+    },
+    "error": null,
+    "created_at": "2025-09-04T15:17:38.364036"
+  },
+  "processing_metadata": {
+    "processor_version": "1.0.0",
+    "config_used": {
+      "bucket": "test-passport-data",
+      "region": "us-east-1",
+      "blueprint_arn": "arn:aws:bedrock:us-east-1:122610487956:blueprint/14e3e065923e",
+      "confidence_threshold": 0.7
+    },
+    "workflow_duration": null
+  }
+}
